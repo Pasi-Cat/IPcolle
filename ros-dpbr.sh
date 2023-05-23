@@ -80,4 +80,4 @@ done
 } > ../firehol_level1.rsc
 
 cd ..
-rm -rf ./pbr
+rm -rf ./pbr  ../CN.rsc
