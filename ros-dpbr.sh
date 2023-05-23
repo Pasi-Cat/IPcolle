@@ -16,7 +16,8 @@ done
 
 # bitcoin_blockchain_info_7d
 wget --no-check-certificate -c -O bitcoin_blockchain.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_blockchain_info_7d.ipset
-grep -v '^#' bitcoin_blockchain.ipset | grep -v '^$' > xbitcoin_blockchain.txt
+grep -v '^#' bitcoin_blockchain.ipset | grep -v '^$' > bitcoin_blockchain.txt
+
 {
 echo "/ip firewall address-list"
 
