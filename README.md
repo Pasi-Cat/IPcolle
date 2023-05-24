@@ -75,6 +75,8 @@ ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets
 ## maxmind_proxy_fraud.rsc
 高危IP列表
 
+原始IP来源至 [MaxMind](https://www.maxmind.com/en/high-risk-ip-sample-list)
+
 ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
 
 策略路由分流的实现方法：
