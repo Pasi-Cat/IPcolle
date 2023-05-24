@@ -1,5 +1,5 @@
-## Github Action
-构建我个人所需的ip分流表
+## IPcolle
+使用Github Action 自动构建我个人所需的ip分流表
 
 用于Firewall - mangle页，通过dst-addrss= 引用
 
@@ -86,5 +86,22 @@ ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets
 :if ([:len [/file find name=maxmind_proxy_fraud.rsc]] > 0) do={
 /ip firewall address-list remove [find list="maxmind_proxy_fraud"]
 /import maxmind_proxy_fraud.rsc
+}
+```
+
+## firehol_level1.rsc
+firehol level1级别危险IP表
+
+ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
+
+策略路由分流的实现方法：
+
+**firehol_level1.rsc** 是往Firewall - address lists 里生ip段列表。
+```
+/file remove [find name="firehol_level1.rsc"]
+/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/firehol_level1.rsc"
+:if ([:len [/file find name=firehol_level1.rsc]] > 0) do={
+/ip firewall address-list remove [find list="firehol_level1"]
+/import firehol_level1.rsc
 }
 ```
