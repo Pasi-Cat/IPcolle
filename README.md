@@ -23,7 +23,7 @@ ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
 ## AS4809v6.rsc
 大陆白名单v4路由规则
 
-ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
+ip段信息取自 [China-IPv6-List](https://github.com/ChanthMiao/China-IPv6-List)
 
 策略路由分流的实现方法：
 
