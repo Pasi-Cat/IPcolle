@@ -2,17 +2,29 @@
 mkdir -p ./pbr
 cd ./pbr
 
-# AS4809 BGP
-wget --no-check-certificate -c -O AS4809.txt https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt
+# AS4809v4 BGP
+wget --no-check-certificate -c -O AS4809v4.txt https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt
 
 {
 echo "/ip firewall address-list"
 
-for net in $(cat AS4809.txt) ; do
-  echo "add list=AS4809 address=$net"
+for net in $(cat AS4809v4.txt) ; do
+  echo "add list=AS4809v4 address=$net"
 done
 
-} > ../AS4809.rsc
+} > ../AS4809v4.rsc
+
+# AS4809v6 BGP
+wget --no-check-certificate -c -O AS4809v6.txt https://raw.githubusercontent.com/ChanthMiao/China-IPv6-List/release/cn6.txt
+
+{
+echo "/ipv6 firewall address-list"
+
+for net in $(cat AS4809v6.txt) ; do
+  echo "add list=AS4809v6 address=$net"
+done
+
+} > ../AS4809v6.rsc
 
 # bitcoin_blockchain_info_7d
 wget --no-check-certificate -c -O bitcoin_blockchain.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_blockchain_info_7d.ipset
