@@ -3,20 +3,37 @@
 
 用于Firewall - mangle页，通过dst-addrss= 引用
 
-## AS4809.rsc
-大陆白名单路由规则
+## AS4809v4.rsc
+大陆白名单v4路由规则
 
 ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
 
 策略路由分流的实现方法：
 
-**AS4809.rsc** 是往Firewall - address lists 里生ip段列表。
+**AS4809v4.rsc** 是往Firewall - address lists 里生ip段列表。
 ```
-/file remove [find name="AS4809.rsc"]
-/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/AS4809.rsc"
-:if ([:len [/file find name=AS4809.rsc]] > 0) do={
-/ip firewall address-list remove [find list="AS4809"]
-/import AS4809.rsc
+/file remove [find name="AS4809v4.rsc"]
+/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/AS4809v4.rsc"
+:if ([:len [/file find name=AS4809v4.rsc]] > 0) do={
+/ip firewall address-list remove [find list="AS4809v4"]
+/import AS4809v4.rsc
+}
+```
+
+## AS4809v6.rsc
+大陆白名单v4路由规则
+
+ip段信息取自 [china-ip-list](https://github.com/mayaxcn/china-ip-list)
+
+策略路由分流的实现方法：
+
+**AS4809v6.rsc** 是往Firewall - address lists 里生ip段列表。
+```
+/file remove [find name="AS4809v6.rsc"]
+/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/AS4809v6.rsc"
+:if ([:len [/file find name=AS4809v6.rsc]] > 0) do={
+/ipv6 firewall address-list remove [find list="AS4809v6"]
+/import AS4809v6.rsc
 }
 ```
 
