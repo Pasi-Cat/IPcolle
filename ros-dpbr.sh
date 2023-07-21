@@ -26,6 +26,18 @@ done
 
 } > ../AS4809v6.rsc
 
+# AS4809 BGP V4+V6
+{
+for netv4 in $(cat AS4809v4.rsc) ; do
+  echo "$netv4"
+done
+
+for netv6 in $(cat AS4809v6.rsc) ; do
+  echo "$netv6"
+done
+
+} > ../AS4809.rsc
+
 # bitcoin_blockchain_info_7d
 wget --no-check-certificate -c -O bitcoin_blockchain.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_blockchain_info_7d.ipset
 grep -v '^#' bitcoin_blockchain.ipset | grep -v '^$' > bitcoin_blockchain.txt
