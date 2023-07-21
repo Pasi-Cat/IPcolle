@@ -28,12 +28,16 @@ done
 
 # AS4809 BGP V4+V6
 {
-for netv4 in $(cat ../AS4809v4.rsc) ; do
-  echo "$netv4"
+echo "/ip firewall address-list"
+
+for netv4 in $(cat AS4809v4.txt) ; do
+  echo "add list=AS4809 address=$netv4"
 done
 
-for netv6 in $(cat ../AS4809v6.rsc) ; do
-  echo "$netv6"
+echo "/ipv6 firewall address-list"
+
+for netv6 in $(cat AS4809v6.txt) ; do
+  echo "add list=AS4809 address=$netv6"
 done
 
 } > ../AS4809.rsc
