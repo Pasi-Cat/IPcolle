@@ -268,7 +268,9 @@ add list=AS4809v4 address=42.248.0.0/13
 add list=AS4809v4 address=43.136.0.0/13
 add list=AS4809v4 address=43.144.0.0/13
 add list=AS4809v4 address=43.176.0.0/12
-add list=AS4809v4 address=43.192.0.0/14
+add list=AS4809v4 address=43.192.0.0/15
+add list=AS4809v4 address=43.194.0.0/16
+add list=AS4809v4 address=43.195.0.0/16
 add list=AS4809v4 address=43.196.0.0/15
 add list=AS4809v4 address=43.224.12.0/22
 add list=AS4809v4 address=43.224.24.0/22
@@ -3608,7 +3610,6 @@ add list=AS4809v4 address=103.109.48.0/22
 add list=AS4809v4 address=103.109.88.0/22
 add list=AS4809v4 address=103.109.106.0/23
 add list=AS4809v4 address=103.109.248.0/22
-add list=AS4809v4 address=103.110.80.0/23
 add list=AS4809v4 address=103.110.92.0/22
 add list=AS4809v4 address=103.110.116.0/22
 add list=AS4809v4 address=103.110.132.0/22
@@ -6628,6 +6629,7 @@ add list=AS4809v4 address=202.38.135.0/24
 add list=AS4809v4 address=202.38.136.0/23
 add list=AS4809v4 address=202.38.140.0/23
 add list=AS4809v4 address=202.38.142.0/23
+add list=AS4809v4 address=202.38.146.0/23
 add list=AS4809v4 address=202.38.149.0/24
 add list=AS4809v4 address=202.38.150.0/23
 add list=AS4809v4 address=202.38.152.0/23
