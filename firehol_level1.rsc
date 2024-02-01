@@ -146,7 +146,6 @@ add list=firehol_level1 address=45.143.136.0/24
 add list=firehol_level1 address=45.143.138.0/24
 add list=firehol_level1 address=45.143.200.0/23
 add list=firehol_level1 address=45.143.252.0/22
-add list=firehol_level1 address=45.145.36.0/22
 add list=firehol_level1 address=45.148.120.0/23
 add list=firehol_level1 address=45.148.148.0/22
 add list=firehol_level1 address=45.150.180.0/22
@@ -166,8 +165,6 @@ add list=firehol_level1 address=45.249.228.0/22
 add list=firehol_level1 address=45.251.248.0/22
 add list=firehol_level1 address=45.254.44.0/22
 add list=firehol_level1 address=45.254.232.0/22
-add list=firehol_level1 address=46.23.100.0/22
-add list=firehol_level1 address=46.23.110.0/24
 add list=firehol_level1 address=46.148.112.0/24
 add list=firehol_level1 address=46.148.120.0/24
 add list=firehol_level1 address=46.148.127.0/24
@@ -233,6 +230,7 @@ add list=firehol_level1 address=74.48.84.0/24
 add list=firehol_level1 address=74.48.140.0/24
 add list=firehol_level1 address=74.80.191.0/24
 add list=firehol_level1 address=74.114.148.0/22
+add list=firehol_level1 address=77.36.112.0/21
 add list=firehol_level1 address=77.73.134.0/24
 add list=firehol_level1 address=77.81.84.0/23
 add list=firehol_level1 address=77.81.86.0/24
@@ -247,13 +245,11 @@ add list=firehol_level1 address=78.128.113.0/24
 add list=firehol_level1 address=79.110.22.0/24
 add list=firehol_level1 address=79.110.62.0/24
 add list=firehol_level1 address=79.137.192.0/24
-add list=firehol_level1 address=80.66.64.0/24
 add list=firehol_level1 address=80.66.75.0/24
 add list=firehol_level1 address=80.66.77.0/24
 add list=firehol_level1 address=80.94.92.0/24
 add list=firehol_level1 address=80.94.95.0/24
 add list=firehol_level1 address=80.208.192.0/20
-add list=firehol_level1 address=80.244.4.0/22
 add list=firehol_level1 address=80.244.8.0/21
 add list=firehol_level1 address=82.135.156.0/23
 add list=firehol_level1 address=82.135.228.0/22
@@ -310,7 +306,6 @@ add list=firehol_level1 address=89.33.250.0/23
 add list=firehol_level1 address=89.33.254.0/23
 add list=firehol_level1 address=89.34.0.0/24
 add list=firehol_level1 address=89.34.4.0/24
-add list=firehol_level1 address=89.34.14.0/24
 add list=firehol_level1 address=89.34.102.0/24
 add list=firehol_level1 address=89.34.104.0/23
 add list=firehol_level1 address=89.35.54.0/24
@@ -361,7 +356,6 @@ add list=firehol_level1 address=91.202.211.0/24
 add list=firehol_level1 address=91.202.233.0/24
 add list=firehol_level1 address=91.203.192.0/23
 add list=firehol_level1 address=91.204.224.0/22
-add list=firehol_level1 address=91.207.19.0/24
 add list=firehol_level1 address=91.212.166.0/24
 add list=firehol_level1 address=91.213.50.0/24
 add list=firehol_level1 address=91.215.85.0/24
@@ -378,6 +372,7 @@ add list=firehol_level1 address=91.240.118.0/24
 add list=firehol_level1 address=91.241.19.0/24
 add list=firehol_level1 address=91.243.93.0/24
 add list=firehol_level1 address=91.246.43.0/24
+add list=firehol_level1 address=91.246.176.0/21
 add list=firehol_level1 address=92.63.196.0/23
 add list=firehol_level1 address=92.87.6.0/24
 add list=firehol_level1 address=92.118.39.0/24
@@ -405,8 +400,7 @@ add list=firehol_level1 address=101.203.128.0/19
 add list=firehol_level1 address=101.248.0.0/15
 add list=firehol_level1 address=102.192.0.0/12
 add list=firehol_level1 address=102.208.0.0/15
-add list=firehol_level1 address=102.210.0.0/21
-add list=firehol_level1 address=102.210.8.0/22
+add list=firehol_level1 address=102.210.0.0/22
 add list=firehol_level1 address=102.210.54.0/23
 add list=firehol_level1 address=102.221.75.0/24
 add list=firehol_level1 address=102.240.0.0/16
@@ -743,10 +737,9 @@ add list=firehol_level1 address=155.249.0.0/16
 add list=firehol_level1 address=156.0.109.0/24
 add list=firehol_level1 address=156.0.199.0/24
 add list=firehol_level1 address=156.96.0.0/16
-add list=firehol_level1 address=157.15.51.0/24
-add list=firehol_level1 address=157.15.52.0/22
-add list=firehol_level1 address=157.15.56.0/21
-add list=firehol_level1 address=157.15.64.0/18
+add list=firehol_level1 address=157.15.100.0/22
+add list=firehol_level1 address=157.15.104.0/21
+add list=firehol_level1 address=157.15.112.0/20
 add list=firehol_level1 address=157.15.128.0/17
 add list=firehol_level1 address=157.20.0.0/16
 add list=firehol_level1 address=157.66.0.0/16
@@ -1012,7 +1005,6 @@ add list=firehol_level1 address=185.77.248.0/24
 add list=firehol_level1 address=185.80.112.0/22
 add list=firehol_level1 address=185.81.68.0/24
 add list=firehol_level1 address=185.81.156.0/22
-add list=firehol_level1 address=185.81.217.0/24
 add list=firehol_level1 address=185.110.0.0/22
 add list=firehol_level1 address=185.116.172.0/23
 add list=firehol_level1 address=185.116.175.0/24
@@ -1274,7 +1266,6 @@ add list=firehol_level1 address=193.222.96.0/24
 add list=firehol_level1 address=193.233.48.0/24
 add list=firehol_level1 address=193.233.81.0/24
 add list=firehol_level1 address=193.233.132.0/24
-add list=firehol_level1 address=193.233.193.0/24
 add list=firehol_level1 address=193.233.200.0/24
 add list=firehol_level1 address=193.233.255.0/24
 add list=firehol_level1 address=193.243.0.0/17
@@ -1284,11 +1275,11 @@ add list=firehol_level1 address=194.32.236.0/24
 add list=firehol_level1 address=194.33.191.0/24
 add list=firehol_level1 address=194.41.60.0/23
 add list=firehol_level1 address=194.49.94.0/24
-add list=firehol_level1 address=194.50.95.0/24
 add list=firehol_level1 address=194.55.227.0/24
 add list=firehol_level1 address=194.56.212.0/23
 add list=firehol_level1 address=194.59.216.0/22
 add list=firehol_level1 address=194.87.200.0/24
+add list=firehol_level1 address=194.165.37.0/24
 add list=firehol_level1 address=194.169.175.0/24
 add list=firehol_level1 address=195.14.98.0/24
 add list=firehol_level1 address=195.20.16.0/24
