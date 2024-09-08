@@ -18,7 +18,6 @@ add list=AS4809v6 address=2001:dc7::/32
 add list=AS4809v6 address=2001:dd8:1::/48
 add list=AS4809v6 address=2001:dd8:5::/48
 add list=AS4809v6 address=2001:dd9::/48
-add list=AS4809v6 address=2001:df0:2e00::/48
 add list=AS4809v6 address=2001:df0:a640::/48
 add list=AS4809v6 address=2001:df0:ac40::/48
 add list=AS4809v6 address=2001:df1:2b40::/48
@@ -184,7 +183,6 @@ add list=AS4809v6 address=2401:8d00:10::/48
 add list=AS4809v6 address=2401:8d00:12::/48
 add list=AS4809v6 address=2401:8d00:14::/48
 add list=AS4809v6 address=2401:8da0::/48
-add list=AS4809v6 address=2401:95c0:f001::/48
 add list=AS4809v6 address=2401:a140:1::/48
 add list=AS4809v6 address=2401:b180::/32
 add list=AS4809v6 address=2401:b400::/45
@@ -246,11 +244,6 @@ add list=AS4809v6 address=2402:db40:5f00::/46
 add list=AS4809v6 address=2402:dfc0::/44
 add list=AS4809v6 address=2402:dfc0:50::/44
 add list=AS4809v6 address=2402:e380:100::/40
-add list=AS4809v6 address=2402:e380:302::/48
-add list=AS4809v6 address=2402:e380:306::/48
-add list=AS4809v6 address=2402:e380:308::/48
-add list=AS4809v6 address=2402:e380:30c::/48
-add list=AS4809v6 address=2402:e380:312::/48
 add list=AS4809v6 address=2402:e480::/32
 add list=AS4809v6 address=2402:e740::/32
 add list=AS4809v6 address=2402:e7c0::/32
@@ -459,7 +452,6 @@ add list=AS4809v6 address=2406:840:880::/48
 add list=AS4809v6 address=2406:840:a08::/48
 add list=AS4809v6 address=2406:840:a90::/48
 add list=AS4809v6 address=2406:840:c00::/47
-add list=AS4809v6 address=2406:840:c09::/48
 add list=AS4809v6 address=2406:840:c60::/48
 add list=AS4809v6 address=2406:840:1800::/48
 add list=AS4809v6 address=2406:840:2800::/48
@@ -485,7 +477,6 @@ add list=AS4809v6 address=2406:840:981a::/48
 add list=AS4809v6 address=2406:840:981c::/46
 add list=AS4809v6 address=2406:840:9960::/47
 add list=AS4809v6 address=2406:840:9962::/48
-add list=AS4809v6 address=2406:840:9969::/48
 add list=AS4809v6 address=2406:840:996f::/48
 add list=AS4809v6 address=2406:840:9980::/48
 add list=AS4809v6 address=2406:840:9984::/48
@@ -505,7 +496,7 @@ add list=AS4809v6 address=2406:840:e10f::/48
 add list=AS4809v6 address=2406:840:e14f::/48
 add list=AS4809v6 address=2406:840:e20f::/48
 add list=AS4809v6 address=2406:840:e230::/46
-add list=AS4809v6 address=2406:840:e234::/48
+add list=AS4809v6 address=2406:840:e234::/47
 add list=AS4809v6 address=2406:840:e237::/48
 add list=AS4809v6 address=2406:840:e238::/48
 add list=AS4809v6 address=2406:840:e270::/44
@@ -524,7 +515,6 @@ add list=AS4809v6 address=2406:840:e770::/48
 add list=AS4809v6 address=2406:840:e777::/48
 add list=AS4809v6 address=2406:840:e80f::/48
 add list=AS4809v6 address=2406:840:e841::/48
-add list=AS4809v6 address=2406:840:e842::/48
 add list=AS4809v6 address=2406:840:e84a::/48
 add list=AS4809v6 address=2406:840:e84c::/47
 add list=AS4809v6 address=2406:840:e84f::/48
@@ -553,6 +543,7 @@ add list=AS4809v6 address=2406:840:f40f::/48
 add list=AS4809v6 address=2406:840:f440::/47
 add list=AS4809v6 address=2406:840:f44f::/48
 add list=AS4809v6 address=2406:840:f48f::/48
+add list=AS4809v6 address=2406:840:f660::/44
 add list=AS4809v6 address=2406:840:f990::/44
 add list=AS4809v6 address=2406:840:fa01::/48
 add list=AS4809v6 address=2406:840:fa40::/48
@@ -1236,6 +1227,8 @@ add list=AS4809v6 address=240d:c010:5b::/48
 add list=AS4809v6 address=240d:c010:5c::/48
 add list=AS4809v6 address=240d:c010:68::/48
 add list=AS4809v6 address=240d:c010:6c::/48
+add list=AS4809v6 address=240d:c010:72::/48
+add list=AS4809v6 address=240d:c010:11e::/48
 add list=AS4809v6 address=240d:c040::/44
 add list=AS4809v6 address=240e::/20
 add list=AS4809v6 address=2602:2a3::/48
@@ -1253,6 +1246,7 @@ add list=AS4809v6 address=2602:fab0:11::/48
 add list=AS4809v6 address=2602:fbda:600::/48
 add list=AS4809v6 address=2602:fbda:610::/48
 add list=AS4809v6 address=2602:fbda:660::/48
+add list=AS4809v6 address=2602:fbda:666::/48
 add list=AS4809v6 address=2602:fc52:311::/48
 add list=AS4809v6 address=2602:fc52:315::/48
 add list=AS4809v6 address=2602:fd92:801::/48
@@ -1264,7 +1258,6 @@ add list=AS4809v6 address=2602:fed2:731d::/48
 add list=AS4809v6 address=2602:feda:182::/47
 add list=AS4809v6 address=2602:feda:1bf::/48
 add list=AS4809v6 address=2602:feda:1d1::/48
-add list=AS4809v6 address=2602:feda:1d2::/48
 add list=AS4809v6 address=2602:feda:2a0::/46
 add list=AS4809v6 address=2602:feda:2a4::/47
 add list=AS4809v6 address=2602:feda:2a6::/48
@@ -1332,10 +1325,6 @@ add list=AS4809v6 address=2a05:1085::/32
 add list=AS4809v6 address=2a05:1087::/32
 add list=AS4809v6 address=2a05:4140:66::/48
 add list=AS4809v6 address=2a05:dfc1:1600::/48
-add list=AS4809v6 address=2a05:dfc1:1610::/48
-add list=AS4809v6 address=2a05:dfc1:1630::/48
-add list=AS4809v6 address=2a05:dfc1:16fd::/48
-add list=AS4809v6 address=2a05:dfc1:16fe::/48
 add list=AS4809v6 address=2a05:dfc1:7108::/47
 add list=AS4809v6 address=2a05:dfc1:8c02::/48
 add list=AS4809v6 address=2a05:dfc1:8c05::/48
@@ -1391,7 +1380,7 @@ add list=AS4809v6 address=2a06:a005:1800::/48
 add list=AS4809v6 address=2a06:a005:1b60::/47
 add list=AS4809v6 address=2a06:a005:1c40::/44
 add list=AS4809v6 address=2a06:a005:1ee1::/48
-add list=AS4809v6 address=2a06:a005:1ee8::/47
+add list=AS4809v6 address=2a06:a005:1ee9::/48
 add list=AS4809v6 address=2a06:a005:1eee::/48
 add list=AS4809v6 address=2a06:a005:2040::/44
 add list=AS4809v6 address=2a06:a005:28f3::/48
@@ -1404,15 +1393,15 @@ add list=AS4809v6 address=2a06:a005:2980::/44
 add list=AS4809v6 address=2a06:a005:29d1::/48
 add list=AS4809v6 address=2a06:de00:de04::/48
 add list=AS4809v6 address=2a06:de00:de0e::/48
-add list=AS4809v6 address=2a06:de01:83a::/48
-add list=AS4809v6 address=2a06:de01:863::/48
-add list=AS4809v6 address=2a06:de01:893::/48
-add list=AS4809v6 address=2a06:de01:8ca::/48
-add list=AS4809v6 address=2a06:de01:911::/48
-add list=AS4809v6 address=2a06:de01:94e::/48
-add list=AS4809v6 address=2a06:de01:9a1::/48
-add list=AS4809v6 address=2a06:de01:ae1::/48
-add list=AS4809v6 address=2a06:de01:b21::/48
+add list=AS4809v6 address=2a06:de01:807::/48
+add list=AS4809v6 address=2a06:de01:85e::/48
+add list=AS4809v6 address=2a06:de01:894::/48
+add list=AS4809v6 address=2a06:de01:8c7::/48
+add list=AS4809v6 address=2a06:de01:921::/48
+add list=AS4809v6 address=2a06:de01:962::/48
+add list=AS4809v6 address=2a06:de01:986::/48
+add list=AS4809v6 address=2a06:de01:af0::/48
+add list=AS4809v6 address=2a06:de01:b3e::/48
 add list=AS4809v6 address=2a06:e881:5501::/48
 add list=AS4809v6 address=2a06:e881:5502::/48
 add list=AS4809v6 address=2a06:e881:5506::/48
@@ -1442,6 +1431,7 @@ add list=AS4809v6 address=2a0a:6040:2233::/48
 add list=AS4809v6 address=2a0a:6040:2255::/48
 add list=AS4809v6 address=2a0a:6040:2277::/48
 add list=AS4809v6 address=2a0a:6040:2d00::/44
+add list=AS4809v6 address=2a0a:6040:3410::/48
 add list=AS4809v6 address=2a0a:6040:3420::/48
 add list=AS4809v6 address=2a0a:6040:3430::/48
 add list=AS4809v6 address=2a0a:6040:34ff::/48
@@ -1450,7 +1440,7 @@ add list=AS4809v6 address=2a0a:6040:6607::/48
 add list=AS4809v6 address=2a0a:6040:6c40::/44
 add list=AS4809v6 address=2a0a:6040:a450::/47
 add list=AS4809v6 address=2a0a:6040:a740::/48
-add list=AS4809v6 address=2a0a:6040:a901::/48
+add list=AS4809v6 address=2a0a:6040:a900::/47
 add list=AS4809v6 address=2a0a:6040:b770::/44
 add list=AS4809v6 address=2a0a:6040:c700::/42
 add list=AS4809v6 address=2a0a:6040:c740::/47
@@ -1496,15 +1486,13 @@ add list=AS4809v6 address=2a0b:4340:406::/48
 add list=AS4809v6 address=2a0b:4340:434::/48
 add list=AS4809v6 address=2a0b:4340:1304::/48
 add list=AS4809v6 address=2a0b:4340:1340::/48
+add list=AS4809v6 address=2a0c:9a40:8490::/48
 add list=AS4809v6 address=2a0c:9a40:8cf0::/48
 add list=AS4809v6 address=2a0c:9a40:9e00::/43
 add list=AS4809v6 address=2a0c:b641:210::/47
 add list=AS4809v6 address=2a0c:b641:510::/48
 add list=AS4809v6 address=2a0c:b641:570::/47
 add list=AS4809v6 address=2a0c:b641:b21::/48
-add list=AS4809v6 address=2a0c:b642:4101::/48
-add list=AS4809v6 address=2a0c:b642:4102::/47
-add list=AS4809v6 address=2a0c:b642:4104::/46
 add list=AS4809v6 address=2a0d:2146:8040::/48
 add list=AS4809v6 address=2a0d:2406:510::/47
 add list=AS4809v6 address=2a0d:2406:512::/48
@@ -1572,9 +1560,10 @@ add list=AS4809v6 address=2a0e:aa07:f0d2::/48
 add list=AS4809v6 address=2a0e:aa07:f0d4::/47
 add list=AS4809v6 address=2a0e:aa07:f0d8::/45
 add list=AS4809v6 address=2a0e:aa07:f0e0::/44
+add list=AS4809v6 address=2a0e:b107:24::/48
 add list=AS4809v6 address=2a0e:b107:30::/48
 add list=AS4809v6 address=2a0e:b107:32::/47
-add list=AS4809v6 address=2a0e:b107:a4::/47
+add list=AS4809v6 address=2a0e:b107:a0::/44
 add list=AS4809v6 address=2a0e:b107:12b::/48
 add list=AS4809v6 address=2a0e:b107:272::/48
 add list=AS4809v6 address=2a0e:b107:710::/48
@@ -1608,6 +1597,7 @@ add list=AS4809v6 address=2a0f:7802:e138::/45
 add list=AS4809v6 address=2a0f:7802:e140::/46
 add list=AS4809v6 address=2a0f:7803:dd00::/41
 add list=AS4809v6 address=2a0f:7803:ddc0::/42
+add list=AS4809v6 address=2a0f:7803:f840::/44
 add list=AS4809v6 address=2a0f:7803:f860::/44
 add list=AS4809v6 address=2a0f:7803:f8b0::/44
 add list=AS4809v6 address=2a0f:7803:f970::/44
@@ -1615,7 +1605,7 @@ add list=AS4809v6 address=2a0f:7803:fa21::/48
 add list=AS4809v6 address=2a0f:7803:fa22::/47
 add list=AS4809v6 address=2a0f:7803:fa24::/46
 add list=AS4809v6 address=2a0f:7803:fc00::/44
-add list=AS4809v6 address=2a0f:7803:fc20::/43
+add list=AS4809v6 address=2a0f:7803:fc20::/44
 add list=AS4809v6 address=2a0f:7803:fc50::/48
 add list=AS4809v6 address=2a0f:7803:fc80::/44
 add list=AS4809v6 address=2a0f:7803:fcaa::/48
@@ -1663,6 +1653,8 @@ add list=AS4809v6 address=2a10:ccc0:ccc6::/48
 add list=AS4809v6 address=2a10:ccc0:cccc::/46
 add list=AS4809v6 address=2a10:ccc6:6660::/44
 add list=AS4809v6 address=2a11:f2c0:ffc4::/48
+add list=AS4809v6 address=2a12:3fc2:6600::/48
+add list=AS4809v6 address=2a12:3fc2:6666::/48
 add list=AS4809v6 address=2a12:3fc2:aa10::/44
 add list=AS4809v6 address=2a12:3fc2:aa40::/44
 add list=AS4809v6 address=2a12:3fc2:ab50::/48
@@ -1685,11 +1677,8 @@ add list=AS4809v6 address=2a13:18c4::/32
 add list=AS4809v6 address=2a13:4900::/29
 add list=AS4809v6 address=2a13:a5c3:f000::/40
 add list=AS4809v6 address=2a13:a5c3:f243::/48
-add list=AS4809v6 address=2a13:a5c4:1000::/38
-add list=AS4809v6 address=2a13:a5c4:1400::/39
 add list=AS4809v6 address=2a13:a5c5::/48
 add list=AS4809v6 address=2a13:a5c7:1200::/40
-add list=AS4809v6 address=2a13:a5c7:1500::/40
 add list=AS4809v6 address=2a13:a5c7:1600::/46
 add list=AS4809v6 address=2a13:a5c7:1604::/48
 add list=AS4809v6 address=2a13:a5c7:1610::/48
