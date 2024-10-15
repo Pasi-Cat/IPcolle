@@ -6254,6 +6254,10 @@ add list=AS4809v4 address=160.30.194.0/23
 add list=AS4809v4 address=160.30.196.0/23
 add list=AS4809v4 address=160.30.198.0/23
 add list=AS4809v4 address=160.30.230.0/23
+add list=AS4809v4 address=160.187.223.0/24
+add list=AS4809v4 address=160.187.252.0/23
+add list=AS4809v4 address=160.187.254.0/23
+add list=AS4809v4 address=160.191.0.0/23
 add list=AS4809v4 address=160.202.60.0/22
 add list=AS4809v4 address=160.202.148.0/22
 add list=AS4809v4 address=160.202.152.0/22
