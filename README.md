@@ -74,60 +74,6 @@ ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets
 }
 ```
 
-## coinbl_ips.rsc
-常见挖矿程序IP列表
-
-ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
-
-策略路由分流的实现方法：
-
-**coinbl_ips.rsc** 是往Firewall - address lists 里生ip段列表。
-```
-/file remove [find name="coinbl_ips.rsc"]
-/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/coinbl_ips.rsc"
-:if ([:len [/file find name=coinbl_ips.rsc]] > 0) do={
-/ip firewall address-list remove [find list="coinbl_ips"]
-/import coinbl_ips.rsc
-}
-```
-
-## coinbl_hosts_browser.rsc
-常见浏览器挖矿程序列表，已解析成IP地址
-
-ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
-
-策略路由分流的实现方法：
-
-**coinbl_hosts_browser.rsc** 是往Firewall - address lists 里生ip段列表。
-```
-/file remove [find name="coinbl_hosts_browser.rsc"]
-/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/coinbl_hosts_browser.rsc"
-:if ([:len [/file find name=coinbl_hosts_browser.rsc]] > 0) do={
-/ip firewall address-list remove [find list="coinbl_hosts_browser"]
-/import coinbl_hosts_browser.rsc
-}
-```
-
-
-## maxmind_proxy_fraud.rsc
-高危IP列表
-
-原始IP来源至 [MaxMind](https://www.maxmind.com/en/high-risk-ip-sample-list)
-
-ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
-
-策略路由分流的实现方法：
-
-**maxmind_proxy_fraud.rsc** 是往Firewall - address lists 里生ip段列表。
-```
-/file remove [find name="maxmind_proxy_fraud.rsc"]
-/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/maxmind_proxy_fraud.rsc"
-:if ([:len [/file find name=maxmind_proxy_fraud.rsc]] > 0) do={
-/ip firewall address-list remove [find list="maxmind_proxy_fraud"]
-/import maxmind_proxy_fraud.rsc
-}
-```
-
 ## firehol_level1.rsc
 firehol level1级别危险IP表
 
@@ -142,5 +88,39 @@ ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets
 :if ([:len [/file find name=firehol_level1.rsc]] > 0) do={
 /ip firewall address-list remove [find list="firehol_level1"]
 /import firehol_level1.rsc
+}
+```
+
+## bitcoin_nodes.rsc
+全球比特币节点
+
+ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
+
+策略路由分流的实现方法：
+
+**bitcoin_nodes.rsc** 是往Firewall - address lists 里生ip段列表。
+```
+/file remove [find name="bitcoin_nodes.rsc"]
+/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/bitcoin_nodes.rsc"
+:if ([:len [/file find name=bitcoin_nodes.rsc]] > 0) do={
+/ip firewall address-list remove [find list="bitcoin_nodes"]
+/import bitcoin_nodes.rsc
+}
+```
+
+## blocklist.rsc
+blocklist是一个主要使用fail2ban报告滥用的用户网络。只包括过去48小时内攻击用户的单个IP（无子网），其列表包含20,000至40,000个IP
+
+ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
+
+策略路由分流的实现方法：
+
+**blocklist.rsc** 是往Firewall - address lists 里生ip段列表。
+```
+/file remove [find name="blocklist.rsc"]
+/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/blocklist.rsc"
+:if ([:len [/file find name=blocklist.rsc]] > 0) do={
+/ip firewall address-list remove [find list="blocklist"]
+/import blocklist.rsc
 }
 ```
