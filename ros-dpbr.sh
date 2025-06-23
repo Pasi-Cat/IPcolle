@@ -43,7 +43,7 @@ done
 } > ../AS4809.rsc
 
 # bitcoin_blockchain_info_7d
-wget --no-check-certificate -c -O bitcoin_blockchain.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_blockchain_info_7d.ipset
+wget --no-check-certificate -c -O bitcoin_blockchain.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_nodes_7d.ipset
 grep -v '^#' bitcoin_blockchain.ipset | grep -v '^$' > bitcoin_blockchain.txt
 
 {
@@ -56,7 +56,7 @@ done
 } > ../bitcoin_blockchain.rsc
 
 # coinbl_ips
-wget --no-check-certificate -c -O coinbl_ips.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/coinbl_ips.ipset
+wget --no-check-certificate -c -O coinbl_ips.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_nodes_7d.ipset
 grep -v '^#' coinbl_ips.ipset | grep -v '^$' > coinbl_ips.txt
 
 {
@@ -68,21 +68,21 @@ done
 
 } > ../coinbl_ips.rsc
 
-# coinbl_hosts_browser
-wget --no-check-certificate -c -O coinbl_hosts_browser.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/coinbl_hosts_browser.ipset
-grep -v '^#' coinbl_hosts_browser.ipset | grep -v '^$' > coinbl_hosts_browser.txt
+# blocklist
+wget --no-check-certificate -c -O coinbl_hosts_browser.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/blocklist_de.ipset
+grep -v '^#' blocklist_de.ipset | grep -v '^$' > blocklist_de.txt
 
 {
 echo "/ip firewall address-list"
 
-for net in $(cat coinbl_hosts_browser.txt) ; do
-  echo "add list=coinbl_hosts_browser address=$net"
+for net in $(cat blocklist_de.txt) ; do
+  echo "add list=blocklist_de address=$net"
 done
 
 } > ../coinbl_hosts_browser.rsc
 
 # maxmind_proxy_fraud
-wget --no-check-certificate -c -O maxmind_proxy_fraud.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/maxmind_proxy_fraud.ipset
+wget --no-check-certificate -c -O maxmind_proxy_fraud.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/socks_proxy_7d.ipset
 grep -v '^#' maxmind_proxy_fraud.ipset | grep -v '^$' > maxmind_proxy_fraud.txt
 
 {
