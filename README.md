@@ -57,23 +57,6 @@ ip段信息取自 [China-IPv6-List](https://github.com/ChanthMiao/China-IPv6-Lis
 }
 ```
 
-## bitcoin_blockchain.rsc
-比特币区块链IP列表
-
-ip段信息取自 [blocklist-ipsets](https://github.com/firehol/blocklist-ipsets/)
-
-策略路由分流的实现方法：
-
-**bitcoin_blockchain.rsc** 是往Firewall - address lists 里生ip段列表。
-```
-/file remove [find name="bitcoin_blockchain.rsc"]
-/tool fetch url="https://cdn.jsdelivr.net/gh/Pasi-Cat/IPcolle@master/bitcoin_blockchain.rsc"
-:if ([:len [/file find name=bitcoin_blockchain.rsc]] > 0) do={
-/ip firewall address-list remove [find list="bitcoin_blockchain"]
-/import bitcoin_blockchain.rsc
-}
-```
-
 ## firehol_level1.rsc
 firehol level1级别危险IP表
 
