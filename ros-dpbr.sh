@@ -43,7 +43,7 @@ done
 } > ../AS4809.rsc
 
 # bitcoin_nodes_7d.ipset
-wget --no-check-certificate -c -O bitcoin_blockchain.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_nodes_7d.ipset
+wget --no-check-certificate -c -O bitcoin_nodes_7d.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_nodes_7d.ipset
 grep -v '^#' bitcoin_nodes_7d.ipset | grep -v '^$' > bitcoin_nodes_7d.txt
 
 {
@@ -53,23 +53,10 @@ for net in $(cat bitcoin_nodes_7d.txt) ; do
   echo "add list=bitcoin_nodes address=$net"
 done
 
-} > ../bitcoin_blockchain.rsc
-
-# coinbl_ips
-wget --no-check-certificate -c -O coinbl_ips.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_nodes_7d.ipset
-grep -v '^#' coinbl_ips.ipset | grep -v '^$' > coinbl_ips.txt
-
-{
-echo "/ip firewall address-list"
-
-for net in $(cat coinbl_ips.txt) ; do
-  echo "add list=coinbl_ips address=$net"
-done
-
-} > ../coinbl_ips.rsc
+} > ../bitcoin_nodes.rsc
 
 # blocklist
-wget --no-check-certificate -c -O coinbl_hosts_browser.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/blocklist_de.ipset
+wget --no-check-certificate -c -O blocklist_de.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/blocklist_de.ipset
 grep -v '^#' blocklist_de.ipset | grep -v '^$' > blocklist_de.txt
 
 {
@@ -79,20 +66,20 @@ for net in $(cat blocklist_de.txt) ; do
   echo "add list=blocklist_de address=$net"
 done
 
-} > ../coinbl_hosts_browser.rsc
+} > ../blocklist.rsc
 
 # maxmind_proxy_fraud
-wget --no-check-certificate -c -O maxmind_proxy_fraud.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/socks_proxy_7d.ipset
-grep -v '^#' maxmind_proxy_fraud.ipset | grep -v '^$' > maxmind_proxy_fraud.txt
+wget --no-check-certificate -c -O socks_proxy_7d.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/socks_proxy_7d.ipset
+grep -v '^#' socks_proxy_7d.ipset | grep -v '^$' > socks_proxy_7d.txt
 
 {
 echo "/ip firewall address-list"
 
 for net in $(cat maxmind_proxy_fraud.txt) ; do
-  echo "add list=maxmind_proxy_fraud address=$net"
+  echo "add list=socks_proxy address=$net"
 done
 
-} > ../maxmind_proxy_fraud.rsc
+} > ../socks_proxy.rsc
 
 # firehol_level1
 wget --no-check-certificate -c -O firehol_level1.netset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset
