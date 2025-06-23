@@ -42,15 +42,15 @@ done
 
 } > ../AS4809.rsc
 
-# bitcoin_blockchain_info_7d
+# bitcoin_nodes_7d.ipset
 wget --no-check-certificate -c -O bitcoin_blockchain.ipset https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bitcoin_nodes_7d.ipset
-grep -v '^#' bitcoin_blockchain.ipset | grep -v '^$' > bitcoin_blockchain.txt
+grep -v '^#' bitcoin_nodes_7d.ipset | grep -v '^$' > bitcoin_nodes_7d.txt
 
 {
 echo "/ip firewall address-list"
 
-for net in $(cat bitcoin_blockchain.txt) ; do
-  echo "add list=bitcoin_blockchain address=$net"
+for net in $(cat bitcoin_nodes_7d.txt) ; do
+  echo "add list=bitcoin_nodes address=$net"
 done
 
 } > ../bitcoin_blockchain.rsc
