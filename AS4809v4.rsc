@@ -3853,7 +3853,6 @@ add list=AS4809v4 address=103.144.240.0/23
 add list=AS4809v4 address=103.145.38.0/23
 add list=AS4809v4 address=103.145.42.0/23
 add list=AS4809v4 address=103.145.60.0/23
-add list=AS4809v4 address=103.145.86.0/23
 add list=AS4809v4 address=103.145.92.0/23
 add list=AS4809v4 address=103.145.94.0/23
 add list=AS4809v4 address=103.145.98.0/23
