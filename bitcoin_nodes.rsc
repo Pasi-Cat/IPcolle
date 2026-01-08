@@ -47,6 +47,7 @@ add list=bitcoin_nodes address=2.201.160.204
 add list=bitcoin_nodes address=2.201.167.83
 add list=bitcoin_nodes address=2.201.167.171
 add list=bitcoin_nodes address=2.202.73.36
+add list=bitcoin_nodes address=2.203.132.29
 add list=bitcoin_nodes address=2.206.26.109
 add list=bitcoin_nodes address=2.207.1.12
 add list=bitcoin_nodes address=2.207.1.55
@@ -169,6 +170,7 @@ add list=bitcoin_nodes address=5.9.94.237
 add list=bitcoin_nodes address=5.9.152.90
 add list=bitcoin_nodes address=5.9.231.29
 add list=bitcoin_nodes address=5.11.92.140
+add list=bitcoin_nodes address=5.12.23.110
 add list=bitcoin_nodes address=5.13.104.162
 add list=bitcoin_nodes address=5.14.84.81
 add list=bitcoin_nodes address=5.14.161.252
@@ -279,7 +281,7 @@ add list=bitcoin_nodes address=12.1.162.60
 add list=bitcoin_nodes address=12.9.190.18
 add list=bitcoin_nodes address=12.11.29.34
 add list=bitcoin_nodes address=12.183.232.107
-add list=bitcoin_nodes address=12.197.29.80
+add list=bitcoin_nodes address=12.197.29.80/31
 add list=bitcoin_nodes address=12.228.193.76
 add list=bitcoin_nodes address=13.36.183.251
 add list=bitcoin_nodes address=13.37.8.33
@@ -424,6 +426,7 @@ add list=bitcoin_nodes address=16.171.204.210
 add list=bitcoin_nodes address=16.203.147.8
 add list=bitcoin_nodes address=18.27.125.103
 add list=bitcoin_nodes address=18.27.127.182
+add list=bitcoin_nodes address=18.60.176.252
 add list=bitcoin_nodes address=18.102.1.124
 add list=bitcoin_nodes address=18.102.27.180
 add list=bitcoin_nodes address=18.102.40.24
@@ -537,6 +540,7 @@ add list=bitcoin_nodes address=23.137.84.41
 add list=bitcoin_nodes address=23.138.24.36
 add list=bitcoin_nodes address=23.138.24.100
 add list=bitcoin_nodes address=23.138.36.20
+add list=bitcoin_nodes address=23.175.0.220
 add list=bitcoin_nodes address=23.182.128.28
 add list=bitcoin_nodes address=23.182.128.31
 add list=bitcoin_nodes address=23.182.128.65
@@ -586,6 +590,7 @@ add list=bitcoin_nodes address=24.60.237.56
 add list=bitcoin_nodes address=24.63.63.166
 add list=bitcoin_nodes address=24.64.91.23
 add list=bitcoin_nodes address=24.64.107.188
+add list=bitcoin_nodes address=24.64.168.127
 add list=bitcoin_nodes address=24.68.165.127
 add list=bitcoin_nodes address=24.69.68.156
 add list=bitcoin_nodes address=24.70.108.114
@@ -1123,7 +1128,6 @@ add list=bitcoin_nodes address=35.247.241.173
 add list=bitcoin_nodes address=36.20.53.84
 add list=bitcoin_nodes address=36.224.53.110
 add list=bitcoin_nodes address=36.225.136.50
-add list=bitcoin_nodes address=36.225.181.30
 add list=bitcoin_nodes address=36.225.185.252
 add list=bitcoin_nodes address=36.239.131.131
 add list=bitcoin_nodes address=36.239.133.235
@@ -1159,6 +1163,7 @@ add list=bitcoin_nodes address=37.27.229.203
 add list=bitcoin_nodes address=37.27.236.36
 add list=bitcoin_nodes address=37.27.254.102
 add list=bitcoin_nodes address=37.35.121.60
+add list=bitcoin_nodes address=37.41.17.110
 add list=bitcoin_nodes address=37.41.246.52
 add list=bitcoin_nodes address=37.48.112.198
 add list=bitcoin_nodes address=37.49.187.47
@@ -1178,7 +1183,6 @@ add list=bitcoin_nodes address=37.85.34.243
 add list=bitcoin_nodes address=37.103.21.107
 add list=bitcoin_nodes address=37.104.119.237
 add list=bitcoin_nodes address=37.105.153.72
-add list=bitcoin_nodes address=37.106.141.12
 add list=bitcoin_nodes address=37.106.200.140
 add list=bitcoin_nodes address=37.113.250.189
 add list=bitcoin_nodes address=37.114.42.51
@@ -1295,7 +1299,6 @@ add list=bitcoin_nodes address=41.71.26.236
 add list=bitcoin_nodes address=41.71.28.24
 add list=bitcoin_nodes address=41.71.28.41
 add list=bitcoin_nodes address=41.71.28.141
-add list=bitcoin_nodes address=41.71.28.178
 add list=bitcoin_nodes address=41.203.13.218
 add list=bitcoin_nodes address=41.207.117.71
 add list=bitcoin_nodes address=42.2.47.209
@@ -1321,6 +1324,7 @@ add list=bitcoin_nodes address=43.204.163.75
 add list=bitcoin_nodes address=43.207.68.29
 add list=bitcoin_nodes address=43.207.225.13
 add list=bitcoin_nodes address=43.228.125.154
+add list=bitcoin_nodes address=43.229.60.20
 add list=bitcoin_nodes address=44.197.119.87
 add list=bitcoin_nodes address=44.204.46.199
 add list=bitcoin_nodes address=44.204.249.210
@@ -1506,12 +1510,14 @@ add list=bitcoin_nodes address=46.127.241.20
 add list=bitcoin_nodes address=46.128.89.11
 add list=bitcoin_nodes address=46.140.84.146
 add list=bitcoin_nodes address=46.142.95.35
+add list=bitcoin_nodes address=46.142.95.39
 add list=bitcoin_nodes address=46.142.95.54
 add list=bitcoin_nodes address=46.142.95.70
 add list=bitcoin_nodes address=46.142.95.75
 add list=bitcoin_nodes address=46.142.95.81
 add list=bitcoin_nodes address=46.142.95.118
 add list=bitcoin_nodes address=46.142.95.126
+add list=bitcoin_nodes address=46.142.128.50
 add list=bitcoin_nodes address=46.142.129.149
 add list=bitcoin_nodes address=46.142.130.22
 add list=bitcoin_nodes address=46.142.130.28
@@ -1524,8 +1530,8 @@ add list=bitcoin_nodes address=46.142.131.249
 add list=bitcoin_nodes address=46.142.226.67
 add list=bitcoin_nodes address=46.142.226.212
 add list=bitcoin_nodes address=46.142.227.8
+add list=bitcoin_nodes address=46.142.227.36
 add list=bitcoin_nodes address=46.142.227.95
-add list=bitcoin_nodes address=46.142.227.172
 add list=bitcoin_nodes address=46.146.230.233
 add list=bitcoin_nodes address=46.146.231.187
 add list=bitcoin_nodes address=46.146.248.89
@@ -1689,6 +1695,7 @@ add list=bitcoin_nodes address=47.200.212.192
 add list=bitcoin_nodes address=47.202.4.189
 add list=bitcoin_nodes address=47.202.160.26
 add list=bitcoin_nodes address=47.202.236.63
+add list=bitcoin_nodes address=47.203.8.199
 add list=bitcoin_nodes address=47.203.198.114
 add list=bitcoin_nodes address=47.203.214.26
 add list=bitcoin_nodes address=47.203.229.56
@@ -1848,6 +1855,7 @@ add list=bitcoin_nodes address=51.44.200.138
 add list=bitcoin_nodes address=51.68.25.199
 add list=bitcoin_nodes address=51.68.67.251
 add list=bitcoin_nodes address=51.68.131.182
+add list=bitcoin_nodes address=51.68.152.234
 add list=bitcoin_nodes address=51.68.208.110
 add list=bitcoin_nodes address=51.75.39.125
 add list=bitcoin_nodes address=51.75.60.198
@@ -2099,7 +2107,6 @@ add list=bitcoin_nodes address=60.48.65.58
 add list=bitcoin_nodes address=60.133.209.229
 add list=bitcoin_nodes address=60.227.88.103
 add list=bitcoin_nodes address=60.241.35.27
-add list=bitcoin_nodes address=60.241.35.40
 add list=bitcoin_nodes address=60.241.41.201
 add list=bitcoin_nodes address=61.7.163.41
 add list=bitcoin_nodes address=61.69.171.173
@@ -2119,6 +2126,7 @@ add list=bitcoin_nodes address=62.27.209.159
 add list=bitcoin_nodes address=62.27.220.204
 add list=bitcoin_nodes address=62.27.239.35
 add list=bitcoin_nodes address=62.27.244.27
+add list=bitcoin_nodes address=62.27.250.126
 add list=bitcoin_nodes address=62.31.16.114
 add list=bitcoin_nodes address=62.38.144.238
 add list=bitcoin_nodes address=62.45.80.12
@@ -2191,13 +2199,13 @@ add list=bitcoin_nodes address=62.214.240.115
 add list=bitcoin_nodes address=62.214.240.142
 add list=bitcoin_nodes address=62.214.240.200
 add list=bitcoin_nodes address=62.214.240.204
-add list=bitcoin_nodes address=62.214.248.132
 add list=bitcoin_nodes address=62.214.248.208
 add list=bitcoin_nodes address=62.214.249.245
 add list=bitcoin_nodes address=62.214.251.51
 add list=bitcoin_nodes address=62.214.251.78
 add list=bitcoin_nodes address=62.214.251.81
 add list=bitcoin_nodes address=62.214.251.89
+add list=bitcoin_nodes address=62.214.251.204
 add list=bitcoin_nodes address=62.216.47.166
 add list=bitcoin_nodes address=62.216.47.170
 add list=bitcoin_nodes address=62.226.118.115
@@ -2216,7 +2224,6 @@ add list=bitcoin_nodes address=63.33.142.176
 add list=bitcoin_nodes address=63.33.214.10
 add list=bitcoin_nodes address=63.35.146.37
 add list=bitcoin_nodes address=63.65.171.250
-add list=bitcoin_nodes address=63.153.16.213
 add list=bitcoin_nodes address=63.153.28.131
 add list=bitcoin_nodes address=63.153.140.228
 add list=bitcoin_nodes address=63.176.224.162
@@ -2323,6 +2330,7 @@ add list=bitcoin_nodes address=65.108.72.50
 add list=bitcoin_nodes address=65.108.75.182
 add list=bitcoin_nodes address=65.108.79.95
 add list=bitcoin_nodes address=65.108.79.174
+add list=bitcoin_nodes address=65.108.83.224
 add list=bitcoin_nodes address=65.108.94.254
 add list=bitcoin_nodes address=65.108.96.159
 add list=bitcoin_nodes address=65.108.101.79
@@ -2438,6 +2446,7 @@ add list=bitcoin_nodes address=66.203.178.176
 add list=bitcoin_nodes address=66.218.43.136
 add list=bitcoin_nodes address=66.219.196.170
 add list=bitcoin_nodes address=66.222.143.171
+add list=bitcoin_nodes address=66.222.159.224
 add list=bitcoin_nodes address=66.227.138.101
 add list=bitcoin_nodes address=66.243.213.136
 add list=bitcoin_nodes address=66.244.89.222
@@ -2445,8 +2454,10 @@ add list=bitcoin_nodes address=66.245.192.209
 add list=bitcoin_nodes address=67.2.7.38
 add list=bitcoin_nodes address=67.2.8.45
 add list=bitcoin_nodes address=67.2.19.221
+add list=bitcoin_nodes address=67.2.21.187
 add list=bitcoin_nodes address=67.2.23.155
 add list=bitcoin_nodes address=67.2.25.120
+add list=bitcoin_nodes address=67.8.171.97
 add list=bitcoin_nodes address=67.10.25.17
 add list=bitcoin_nodes address=67.10.25.234
 add list=bitcoin_nodes address=67.11.230.23
@@ -2563,6 +2574,7 @@ add list=bitcoin_nodes address=68.119.252.87
 add list=bitcoin_nodes address=68.129.25.16
 add list=bitcoin_nodes address=68.129.97.7
 add list=bitcoin_nodes address=68.132.221.244
+add list=bitcoin_nodes address=68.134.66.220
 add list=bitcoin_nodes address=68.144.99.193
 add list=bitcoin_nodes address=68.144.148.188
 add list=bitcoin_nodes address=68.146.60.126
@@ -2574,7 +2586,6 @@ add list=bitcoin_nodes address=68.162.208.225
 add list=bitcoin_nodes address=68.168.216.243
 add list=bitcoin_nodes address=68.168.222.40
 add list=bitcoin_nodes address=68.170.247.64
-add list=bitcoin_nodes address=68.172.45.230
 add list=bitcoin_nodes address=68.174.131.56
 add list=bitcoin_nodes address=68.175.84.211
 add list=bitcoin_nodes address=68.179.169.182
@@ -2606,6 +2617,7 @@ add list=bitcoin_nodes address=68.209.218.129
 add list=bitcoin_nodes address=68.224.243.142
 add list=bitcoin_nodes address=68.225.32.42
 add list=bitcoin_nodes address=68.228.92.19
+add list=bitcoin_nodes address=68.230.11.75
 add list=bitcoin_nodes address=68.231.1.158
 add list=bitcoin_nodes address=68.238.54.73
 add list=bitcoin_nodes address=68.248.153.105
@@ -2651,7 +2663,6 @@ add list=bitcoin_nodes address=69.136.17.214
 add list=bitcoin_nodes address=69.140.77.11
 add list=bitcoin_nodes address=69.143.221.98
 add list=bitcoin_nodes address=69.146.1.214
-add list=bitcoin_nodes address=69.146.251.75
 add list=bitcoin_nodes address=69.157.235.153
 add list=bitcoin_nodes address=69.158.85.79
 add list=bitcoin_nodes address=69.159.159.240
@@ -2705,8 +2716,8 @@ add list=bitcoin_nodes address=70.76.6.32
 add list=bitcoin_nodes address=70.76.8.44
 add list=bitcoin_nodes address=70.76.23.9
 add list=bitcoin_nodes address=70.80.140.9
+add list=bitcoin_nodes address=70.81.144.23
 add list=bitcoin_nodes address=70.82.138.163
-add list=bitcoin_nodes address=70.92.183.98
 add list=bitcoin_nodes address=70.94.151.246
 add list=bitcoin_nodes address=70.95.111.216
 add list=bitcoin_nodes address=70.95.224.67
@@ -2721,6 +2732,7 @@ add list=bitcoin_nodes address=70.115.106.74
 add list=bitcoin_nodes address=70.116.116.2
 add list=bitcoin_nodes address=70.121.103.126
 add list=bitcoin_nodes address=70.122.14.120
+add list=bitcoin_nodes address=70.122.134.79
 add list=bitcoin_nodes address=70.122.143.116
 add list=bitcoin_nodes address=70.125.247.11
 add list=bitcoin_nodes address=70.143.110.90
@@ -2734,6 +2746,7 @@ add list=bitcoin_nodes address=70.173.50.143
 add list=bitcoin_nodes address=70.175.76.239
 add list=bitcoin_nodes address=70.176.0.56
 add list=bitcoin_nodes address=70.180.155.201
+add list=bitcoin_nodes address=70.181.209.110
 add list=bitcoin_nodes address=70.191.168.25
 add list=bitcoin_nodes address=70.238.225.84
 add list=bitcoin_nodes address=70.240.155.116
@@ -2766,6 +2779,7 @@ add list=bitcoin_nodes address=71.63.73.207
 add list=bitcoin_nodes address=71.63.119.131
 add list=bitcoin_nodes address=71.63.137.225
 add list=bitcoin_nodes address=71.63.211.100
+add list=bitcoin_nodes address=71.71.249.54
 add list=bitcoin_nodes address=71.72.34.176
 add list=bitcoin_nodes address=71.76.39.210
 add list=bitcoin_nodes address=71.80.11.117
@@ -2777,6 +2791,7 @@ add list=bitcoin_nodes address=71.82.117.110
 add list=bitcoin_nodes address=71.82.193.105
 add list=bitcoin_nodes address=71.84.28.120
 add list=bitcoin_nodes address=71.84.50.200
+add list=bitcoin_nodes address=71.86.10.194
 add list=bitcoin_nodes address=71.89.3.250
 add list=bitcoin_nodes address=71.90.178.0
 add list=bitcoin_nodes address=71.91.168.6
@@ -3258,13 +3273,13 @@ add list=bitcoin_nodes address=75.185.41.158
 add list=bitcoin_nodes address=75.190.205.122
 add list=bitcoin_nodes address=75.201.249.107
 add list=bitcoin_nodes address=75.223.217.88
-add list=bitcoin_nodes address=75.233.138.50
 add list=bitcoin_nodes address=75.236.79.200
 add list=bitcoin_nodes address=75.242.150.112
 add list=bitcoin_nodes address=75.249.200.82
 add list=bitcoin_nodes address=75.253.131.95
 add list=bitcoin_nodes address=76.6.3.126
 add list=bitcoin_nodes address=76.6.5.168
+add list=bitcoin_nodes address=76.6.11.182
 add list=bitcoin_nodes address=76.6.29.201
 add list=bitcoin_nodes address=76.6.30.234
 add list=bitcoin_nodes address=76.8.94.19
@@ -3334,6 +3349,7 @@ add list=bitcoin_nodes address=76.150.180.136
 add list=bitcoin_nodes address=76.154.216.169
 add list=bitcoin_nodes address=76.157.70.55
 add list=bitcoin_nodes address=76.157.117.161
+add list=bitcoin_nodes address=76.157.199.175
 add list=bitcoin_nodes address=76.157.223.211
 add list=bitcoin_nodes address=76.166.187.93
 add list=bitcoin_nodes address=76.167.112.197
@@ -3416,6 +3432,7 @@ add list=bitcoin_nodes address=77.37.174.207
 add list=bitcoin_nodes address=77.37.209.235
 add list=bitcoin_nodes address=77.37.212.122
 add list=bitcoin_nodes address=77.38.14.68
+add list=bitcoin_nodes address=77.38.42.251
 add list=bitcoin_nodes address=77.42.27.19
 add list=bitcoin_nodes address=77.42.34.134
 add list=bitcoin_nodes address=77.42.47.161
@@ -3461,7 +3478,6 @@ add list=bitcoin_nodes address=77.117.21.36
 add list=bitcoin_nodes address=77.117.148.129
 add list=bitcoin_nodes address=77.117.150.96
 add list=bitcoin_nodes address=77.132.126.139
-add list=bitcoin_nodes address=77.134.61.151
 add list=bitcoin_nodes address=77.160.69.36
 add list=bitcoin_nodes address=77.160.93.221
 add list=bitcoin_nodes address=77.160.166.45
@@ -3504,7 +3520,9 @@ add list=bitcoin_nodes address=77.186.12.72
 add list=bitcoin_nodes address=77.186.34.236
 add list=bitcoin_nodes address=77.186.151.97
 add list=bitcoin_nodes address=77.187.51.216
+add list=bitcoin_nodes address=77.187.160.172
 add list=bitcoin_nodes address=77.188.168.105
+add list=bitcoin_nodes address=77.188.177.229
 add list=bitcoin_nodes address=77.188.181.60
 add list=bitcoin_nodes address=77.188.253.5
 add list=bitcoin_nodes address=77.189.11.108
@@ -3531,6 +3549,7 @@ add list=bitcoin_nodes address=77.235.27.16
 add list=bitcoin_nodes address=77.237.240.188
 add list=bitcoin_nodes address=77.237.243.18
 add list=bitcoin_nodes address=77.240.190.41
+add list=bitcoin_nodes address=77.246.193.144
 add list=bitcoin_nodes address=77.247.178.158
 add list=bitcoin_nodes address=77.247.179.44
 add list=bitcoin_nodes address=77.247.225.234
@@ -3591,6 +3610,7 @@ add list=bitcoin_nodes address=78.51.79.131
 add list=bitcoin_nodes address=78.51.183.38
 add list=bitcoin_nodes address=78.51.203.212
 add list=bitcoin_nodes address=78.51.216.223
+add list=bitcoin_nodes address=78.51.220.250
 add list=bitcoin_nodes address=78.54.8.110
 add list=bitcoin_nodes address=78.54.45.205
 add list=bitcoin_nodes address=78.54.57.125
@@ -3625,6 +3645,7 @@ add list=bitcoin_nodes address=78.141.213.140
 add list=bitcoin_nodes address=78.141.223.235
 add list=bitcoin_nodes address=78.143.208.92
 add list=bitcoin_nodes address=78.152.247.222
+add list=bitcoin_nodes address=78.155.34.168
 add list=bitcoin_nodes address=78.157.70.244
 add list=bitcoin_nodes address=78.157.171.44
 add list=bitcoin_nodes address=78.159.131.192
@@ -3638,6 +3659,7 @@ add list=bitcoin_nodes address=79.32.68.10
 add list=bitcoin_nodes address=79.32.176.122
 add list=bitcoin_nodes address=79.46.26.175
 add list=bitcoin_nodes address=79.47.179.168
+add list=bitcoin_nodes address=79.49.96.63
 add list=bitcoin_nodes address=79.52.181.242
 add list=bitcoin_nodes address=79.87.88.235
 add list=bitcoin_nodes address=79.97.42.37
@@ -3648,6 +3670,7 @@ add list=bitcoin_nodes address=79.112.35.56
 add list=bitcoin_nodes address=79.112.42.203
 add list=bitcoin_nodes address=79.112.42.231
 add list=bitcoin_nodes address=79.112.48.192
+add list=bitcoin_nodes address=79.112.53.206
 add list=bitcoin_nodes address=79.112.67.140
 add list=bitcoin_nodes address=79.112.79.155
 add list=bitcoin_nodes address=79.112.80.161
@@ -3658,7 +3681,6 @@ add list=bitcoin_nodes address=79.116.52.82
 add list=bitcoin_nodes address=79.116.53.253
 add list=bitcoin_nodes address=79.116.54.0
 add list=bitcoin_nodes address=79.116.56.0
-add list=bitcoin_nodes address=79.116.62.64
 add list=bitcoin_nodes address=79.116.62.76
 add list=bitcoin_nodes address=79.116.68.218
 add list=bitcoin_nodes address=79.116.69.180
@@ -3695,7 +3717,6 @@ add list=bitcoin_nodes address=79.137.67.110
 add list=bitcoin_nodes address=79.137.68.114
 add list=bitcoin_nodes address=79.137.69.234
 add list=bitcoin_nodes address=79.137.99.192
-add list=bitcoin_nodes address=79.140.121.37
 add list=bitcoin_nodes address=79.140.124.28
 add list=bitcoin_nodes address=79.143.73.193
 add list=bitcoin_nodes address=79.146.162.25
@@ -3726,7 +3747,6 @@ add list=bitcoin_nodes address=79.195.153.2
 add list=bitcoin_nodes address=79.196.179.194
 add list=bitcoin_nodes address=79.196.179.232
 add list=bitcoin_nodes address=79.196.189.60
-add list=bitcoin_nodes address=79.199.75.65
 add list=bitcoin_nodes address=79.201.185.93
 add list=bitcoin_nodes address=79.205.163.106
 add list=bitcoin_nodes address=79.205.240.146
@@ -3755,13 +3775,13 @@ add list=bitcoin_nodes address=79.217.87.174
 add list=bitcoin_nodes address=79.219.61.185
 add list=bitcoin_nodes address=79.219.192.253
 add list=bitcoin_nodes address=79.219.194.80
+add list=bitcoin_nodes address=79.219.195.57
 add list=bitcoin_nodes address=79.219.204.79
 add list=bitcoin_nodes address=79.219.205.190
 add list=bitcoin_nodes address=79.220.162.248
 add list=bitcoin_nodes address=79.220.167.4
 add list=bitcoin_nodes address=79.225.109.127
 add list=bitcoin_nodes address=79.225.200.28
-add list=bitcoin_nodes address=79.225.207.84
 add list=bitcoin_nodes address=79.227.65.77
 add list=bitcoin_nodes address=79.227.66.7
 add list=bitcoin_nodes address=79.227.72.194
@@ -3776,7 +3796,7 @@ add list=bitcoin_nodes address=79.235.86.165
 add list=bitcoin_nodes address=79.235.92.238
 add list=bitcoin_nodes address=79.235.94.54
 add list=bitcoin_nodes address=79.235.153.167
-add list=bitcoin_nodes address=79.235.156.60
+add list=bitcoin_nodes address=79.235.155.214
 add list=bitcoin_nodes address=79.236.45.80
 add list=bitcoin_nodes address=79.239.69.158
 add list=bitcoin_nodes address=79.239.75.67
@@ -3804,6 +3824,7 @@ add list=bitcoin_nodes address=80.5.31.251
 add list=bitcoin_nodes address=80.7.203.162
 add list=bitcoin_nodes address=80.9.47.197
 add list=bitcoin_nodes address=80.9.250.99
+add list=bitcoin_nodes address=80.49.175.243
 add list=bitcoin_nodes address=80.53.20.90
 add list=bitcoin_nodes address=80.57.143.112
 add list=bitcoin_nodes address=80.57.183.10
@@ -3819,6 +3840,7 @@ add list=bitcoin_nodes address=80.75.212.27
 add list=bitcoin_nodes address=80.79.6.67
 add list=bitcoin_nodes address=80.79.114.34
 add list=bitcoin_nodes address=80.79.125.249
+add list=bitcoin_nodes address=80.85.247.143
 add list=bitcoin_nodes address=80.87.98.89
 add list=bitcoin_nodes address=80.87.196.14
 add list=bitcoin_nodes address=80.90.4.178
@@ -3918,7 +3940,6 @@ add list=bitcoin_nodes address=81.17.88.35
 add list=bitcoin_nodes address=81.17.97.238
 add list=bitcoin_nodes address=81.24.101.209
 add list=bitcoin_nodes address=81.33.173.223
-add list=bitcoin_nodes address=81.35.238.82
 add list=bitcoin_nodes address=81.38.171.154
 add list=bitcoin_nodes address=81.39.38.39
 add list=bitcoin_nodes address=81.39.138.215
@@ -3952,6 +3973,7 @@ add list=bitcoin_nodes address=81.111.61.35
 add list=bitcoin_nodes address=81.132.137.82
 add list=bitcoin_nodes address=81.133.68.163
 add list=bitcoin_nodes address=81.133.109.82
+add list=bitcoin_nodes address=81.141.138.39
 add list=bitcoin_nodes address=81.153.9.215
 add list=bitcoin_nodes address=81.154.219.154
 add list=bitcoin_nodes address=81.159.107.231
@@ -3963,12 +3985,11 @@ add list=bitcoin_nodes address=81.169.251.179
 add list=bitcoin_nodes address=81.170.219.27
 add list=bitcoin_nodes address=81.172.143.34
 add list=bitcoin_nodes address=81.172.172.29
+add list=bitcoin_nodes address=81.172.207.136
 add list=bitcoin_nodes address=81.173.137.71
 add list=bitcoin_nodes address=81.174.2.16
 add list=bitcoin_nodes address=81.181.166.156
 add list=bitcoin_nodes address=81.183.131.164
-add list=bitcoin_nodes address=81.187.40.124
-add list=bitcoin_nodes address=81.187.40.126
 add list=bitcoin_nodes address=81.187.136.37
 add list=bitcoin_nodes address=81.187.183.241
 add list=bitcoin_nodes address=81.187.235.254
@@ -4082,6 +4103,7 @@ add list=bitcoin_nodes address=82.131.153.80
 add list=bitcoin_nodes address=82.131.184.196
 add list=bitcoin_nodes address=82.136.98.249
 add list=bitcoin_nodes address=82.140.54.58
+add list=bitcoin_nodes address=82.140.54.180
 add list=bitcoin_nodes address=82.140.60.37
 add list=bitcoin_nodes address=82.140.60.142
 add list=bitcoin_nodes address=82.140.60.195
@@ -4148,6 +4170,7 @@ add list=bitcoin_nodes address=83.44.101.174
 add list=bitcoin_nodes address=83.44.105.146
 add list=bitcoin_nodes address=83.44.225.242
 add list=bitcoin_nodes address=83.46.129.115
+add list=bitcoin_nodes address=83.46.142.78
 add list=bitcoin_nodes address=83.46.163.178
 add list=bitcoin_nodes address=83.46.185.136
 add list=bitcoin_nodes address=83.49.208.232
@@ -4247,7 +4270,6 @@ add list=bitcoin_nodes address=84.46.251.107
 add list=bitcoin_nodes address=84.52.213.88
 add list=bitcoin_nodes address=84.52.245.58
 add list=bitcoin_nodes address=84.54.142.48
-add list=bitcoin_nodes address=84.54.143.39
 add list=bitcoin_nodes address=84.55.100.112
 add list=bitcoin_nodes address=84.56.144.58
 add list=bitcoin_nodes address=84.59.85.211
@@ -4271,9 +4293,11 @@ add list=bitcoin_nodes address=84.92.114.177
 add list=bitcoin_nodes address=84.92.124.206
 add list=bitcoin_nodes address=84.97.57.137
 add list=bitcoin_nodes address=84.98.126.41
+add list=bitcoin_nodes address=84.105.148.26
 add list=bitcoin_nodes address=84.106.173.214
 add list=bitcoin_nodes address=84.107.231.73
 add list=bitcoin_nodes address=84.115.101.232
+add list=bitcoin_nodes address=84.115.141.17
 add list=bitcoin_nodes address=84.118.97.71
 add list=bitcoin_nodes address=84.119.3.17
 add list=bitcoin_nodes address=84.123.110.75
@@ -4281,6 +4305,7 @@ add list=bitcoin_nodes address=84.126.70.136
 add list=bitcoin_nodes address=84.126.75.105
 add list=bitcoin_nodes address=84.128.213.236
 add list=bitcoin_nodes address=84.129.150.59
+add list=bitcoin_nodes address=84.129.153.124
 add list=bitcoin_nodes address=84.129.154.167
 add list=bitcoin_nodes address=84.130.86.83
 add list=bitcoin_nodes address=84.130.177.133
@@ -4293,10 +4318,10 @@ add list=bitcoin_nodes address=84.132.226.242
 add list=bitcoin_nodes address=84.134.16.16
 add list=bitcoin_nodes address=84.134.24.129
 add list=bitcoin_nodes address=84.135.166.99
-add list=bitcoin_nodes address=84.135.209.43
 add list=bitcoin_nodes address=84.135.209.126
 add list=bitcoin_nodes address=84.136.160.2
 add list=bitcoin_nodes address=84.136.164.35
+add list=bitcoin_nodes address=84.136.171.131
 add list=bitcoin_nodes address=84.139.141.233
 add list=bitcoin_nodes address=84.141.26.170
 add list=bitcoin_nodes address=84.141.79.207
@@ -4384,7 +4409,6 @@ add list=bitcoin_nodes address=84.181.234.72
 add list=bitcoin_nodes address=84.184.143.161
 add list=bitcoin_nodes address=84.185.1.170
 add list=bitcoin_nodes address=84.185.8.80
-add list=bitcoin_nodes address=84.185.9.237
 add list=bitcoin_nodes address=84.185.15.14
 add list=bitcoin_nodes address=84.185.43.230
 add list=bitcoin_nodes address=84.185.57.38
@@ -4492,6 +4516,7 @@ add list=bitcoin_nodes address=85.145.96.194
 add list=bitcoin_nodes address=85.163.23.103
 add list=bitcoin_nodes address=85.165.4.2
 add list=bitcoin_nodes address=85.165.187.211
+add list=bitcoin_nodes address=85.167.0.9
 add list=bitcoin_nodes address=85.175.226.187
 add list=bitcoin_nodes address=85.195.40.74
 add list=bitcoin_nodes address=85.195.54.157
@@ -4528,7 +4553,6 @@ add list=bitcoin_nodes address=85.226.210.113
 add list=bitcoin_nodes address=85.236.190.252
 add list=bitcoin_nodes address=85.236.191.152
 add list=bitcoin_nodes address=85.238.112.85
-add list=bitcoin_nodes address=85.238.175.3
 add list=bitcoin_nodes address=85.239.141.37
 add list=bitcoin_nodes address=85.239.236.142
 add list=bitcoin_nodes address=85.239.240.4
@@ -4562,6 +4586,7 @@ add list=bitcoin_nodes address=86.49.43.84
 add list=bitcoin_nodes address=86.56.167.183
 add list=bitcoin_nodes address=86.56.241.114
 add list=bitcoin_nodes address=86.58.49.166
+add list=bitcoin_nodes address=86.59.222.227
 add list=bitcoin_nodes address=86.60.175.240
 add list=bitcoin_nodes address=86.60.180.28
 add list=bitcoin_nodes address=86.60.237.21
@@ -4631,15 +4656,12 @@ add list=bitcoin_nodes address=86.135.149.65
 add list=bitcoin_nodes address=86.138.241.135
 add list=bitcoin_nodes address=86.142.169.150
 add list=bitcoin_nodes address=86.146.1.248
-add list=bitcoin_nodes address=86.147.31.231
-add list=bitcoin_nodes address=86.151.13.251
 add list=bitcoin_nodes address=86.152.197.5
 add list=bitcoin_nodes address=86.153.17.240
 add list=bitcoin_nodes address=86.153.46.140
 add list=bitcoin_nodes address=86.153.206.110
 add list=bitcoin_nodes address=86.154.82.49
 add list=bitcoin_nodes address=86.154.95.220
-add list=bitcoin_nodes address=86.155.175.239
 add list=bitcoin_nodes address=86.159.29.161
 add list=bitcoin_nodes address=86.160.113.232
 add list=bitcoin_nodes address=86.163.71.240
@@ -4647,6 +4669,7 @@ add list=bitcoin_nodes address=86.163.115.123
 add list=bitcoin_nodes address=86.164.198.146
 add list=bitcoin_nodes address=86.166.100.94
 add list=bitcoin_nodes address=86.173.125.196
+add list=bitcoin_nodes address=86.174.118.109
 add list=bitcoin_nodes address=86.175.172.146
 add list=bitcoin_nodes address=86.178.107.16
 add list=bitcoin_nodes address=86.181.27.255
@@ -4673,7 +4696,6 @@ add list=bitcoin_nodes address=87.1.7.118
 add list=bitcoin_nodes address=87.4.186.34
 add list=bitcoin_nodes address=87.7.232.137
 add list=bitcoin_nodes address=87.10.186.135
-add list=bitcoin_nodes address=87.16.3.180
 add list=bitcoin_nodes address=87.52.104.146
 add list=bitcoin_nodes address=87.62.99.173
 add list=bitcoin_nodes address=87.63.200.138
@@ -4705,12 +4727,14 @@ add list=bitcoin_nodes address=87.120.254.7
 add list=bitcoin_nodes address=87.121.52.96
 add list=bitcoin_nodes address=87.121.250.122
 add list=bitcoin_nodes address=87.122.46.21
+add list=bitcoin_nodes address=87.122.64.95
 add list=bitcoin_nodes address=87.122.64.197
 add list=bitcoin_nodes address=87.122.211.90
 add list=bitcoin_nodes address=87.123.19.91
 add list=bitcoin_nodes address=87.123.19.134
 add list=bitcoin_nodes address=87.123.39.242
 add list=bitcoin_nodes address=87.123.50.61
+add list=bitcoin_nodes address=87.123.51.126
 add list=bitcoin_nodes address=87.123.81.26
 add list=bitcoin_nodes address=87.123.88.240
 add list=bitcoin_nodes address=87.123.89.9
@@ -4746,7 +4770,6 @@ add list=bitcoin_nodes address=87.166.231.14
 add list=bitcoin_nodes address=87.166.234.239
 add list=bitcoin_nodes address=87.167.91.251
 add list=bitcoin_nodes address=87.168.65.59
-add list=bitcoin_nodes address=87.168.231.227
 add list=bitcoin_nodes address=87.169.99.64
 add list=bitcoin_nodes address=87.169.107.142
 add list=bitcoin_nodes address=87.169.110.28
@@ -4882,7 +4905,6 @@ add list=bitcoin_nodes address=88.185.105.22
 add list=bitcoin_nodes address=88.198.5.130
 add list=bitcoin_nodes address=88.198.25.172
 add list=bitcoin_nodes address=88.198.46.243
-add list=bitcoin_nodes address=88.198.47.217
 add list=bitcoin_nodes address=88.198.48.107
 add list=bitcoin_nodes address=88.198.48.150
 add list=bitcoin_nodes address=88.198.55.131
@@ -4976,6 +4998,7 @@ add list=bitcoin_nodes address=89.166.134.10
 add list=bitcoin_nodes address=89.166.134.140
 add list=bitcoin_nodes address=89.166.203.65
 add list=bitcoin_nodes address=89.171.13.82
+add list=bitcoin_nodes address=89.171.143.26
 add list=bitcoin_nodes address=89.176.107.31
 add list=bitcoin_nodes address=89.176.107.251
 add list=bitcoin_nodes address=89.177.159.5
@@ -4992,7 +5015,6 @@ add list=bitcoin_nodes address=89.182.219.110
 add list=bitcoin_nodes address=89.182.219.253
 add list=bitcoin_nodes address=89.187.191.243
 add list=bitcoin_nodes address=89.207.131.19
-add list=bitcoin_nodes address=89.215.76.17
 add list=bitcoin_nodes address=89.216.91.120
 add list=bitcoin_nodes address=89.216.115.44
 add list=bitcoin_nodes address=89.217.193.252
@@ -5013,7 +5035,6 @@ add list=bitcoin_nodes address=89.245.208.112
 add list=bitcoin_nodes address=89.245.209.14
 add list=bitcoin_nodes address=89.245.209.230
 add list=bitcoin_nodes address=89.245.210.8
-add list=bitcoin_nodes address=89.245.210.12
 add list=bitcoin_nodes address=89.245.211.124
 add list=bitcoin_nodes address=89.245.211.142
 add list=bitcoin_nodes address=89.245.212.27
@@ -5022,7 +5043,6 @@ add list=bitcoin_nodes address=89.245.214.168
 add list=bitcoin_nodes address=89.245.215.77
 add list=bitcoin_nodes address=89.245.215.180
 add list=bitcoin_nodes address=89.245.217.131
-add list=bitcoin_nodes address=89.245.217.170
 add list=bitcoin_nodes address=89.245.219.131
 add list=bitcoin_nodes address=89.245.219.252
 add list=bitcoin_nodes address=89.246.112.42
@@ -5039,7 +5059,6 @@ add list=bitcoin_nodes address=89.247.159.130
 add list=bitcoin_nodes address=90.1.122.79
 add list=bitcoin_nodes address=90.1.132.28
 add list=bitcoin_nodes address=90.7.252.162
-add list=bitcoin_nodes address=90.9.81.11
 add list=bitcoin_nodes address=90.11.72.52
 add list=bitcoin_nodes address=90.26.202.86
 add list=bitcoin_nodes address=90.38.104.33
@@ -5074,7 +5093,6 @@ add list=bitcoin_nodes address=90.190.195.132
 add list=bitcoin_nodes address=90.203.109.184
 add list=bitcoin_nodes address=90.206.35.211
 add list=bitcoin_nodes address=90.213.6.122
-add list=bitcoin_nodes address=90.214.187.194
 add list=bitcoin_nodes address=90.219.135.189
 add list=bitcoin_nodes address=90.222.140.105
 add list=bitcoin_nodes address=90.227.192.172
@@ -5133,20 +5151,17 @@ add list=bitcoin_nodes address=91.42.151.73
 add list=bitcoin_nodes address=91.42.222.83
 add list=bitcoin_nodes address=91.43.20.137
 add list=bitcoin_nodes address=91.43.159.235
-add list=bitcoin_nodes address=91.45.39.152
 add list=bitcoin_nodes address=91.47.32.250
 add list=bitcoin_nodes address=91.47.33.37
 add list=bitcoin_nodes address=91.47.47.12
 add list=bitcoin_nodes address=91.48.253.215
 add list=bitcoin_nodes address=91.49.86.155
-add list=bitcoin_nodes address=91.49.90.172
 add list=bitcoin_nodes address=91.49.204.221
 add list=bitcoin_nodes address=91.50.202.238
 add list=bitcoin_nodes address=91.51.20.171
 add list=bitcoin_nodes address=91.51.24.61
 add list=bitcoin_nodes address=91.51.47.139
 add list=bitcoin_nodes address=91.51.131.190
-add list=bitcoin_nodes address=91.51.148.62
 add list=bitcoin_nodes address=91.51.249.96
 add list=bitcoin_nodes address=91.52.147.228
 add list=bitcoin_nodes address=91.55.110.232
@@ -5184,6 +5199,7 @@ add list=bitcoin_nodes address=91.99.80.127
 add list=bitcoin_nodes address=91.99.173.139
 add list=bitcoin_nodes address=91.99.196.160
 add list=bitcoin_nodes address=91.107.234.217
+add list=bitcoin_nodes address=91.113.13.245
 add list=bitcoin_nodes address=91.116.218.48
 add list=bitcoin_nodes address=91.117.72.231
 add list=bitcoin_nodes address=91.121.62.2
@@ -5269,6 +5285,7 @@ add list=bitcoin_nodes address=92.32.90.68
 add list=bitcoin_nodes address=92.32.171.68
 add list=bitcoin_nodes address=92.41.234.118
 add list=bitcoin_nodes address=92.42.110.219
+add list=bitcoin_nodes address=92.43.24.225
 add list=bitcoin_nodes address=92.43.187.34
 add list=bitcoin_nodes address=92.51.2.21
 add list=bitcoin_nodes address=92.53.84.165
@@ -5290,9 +5307,9 @@ add list=bitcoin_nodes address=92.116.11.142
 add list=bitcoin_nodes address=92.116.12.68
 add list=bitcoin_nodes address=92.116.13.101
 add list=bitcoin_nodes address=92.116.196.88
-add list=bitcoin_nodes address=92.116.196.249
 add list=bitcoin_nodes address=92.116.197.64
 add list=bitcoin_nodes address=92.116.197.97
+add list=bitcoin_nodes address=92.116.198.87
 add list=bitcoin_nodes address=92.116.198.146
 add list=bitcoin_nodes address=92.116.198.169
 add list=bitcoin_nodes address=92.116.198.172
@@ -5354,7 +5371,6 @@ add list=bitcoin_nodes address=93.48.194.40
 add list=bitcoin_nodes address=93.51.8.167
 add list=bitcoin_nodes address=93.51.14.83
 add list=bitcoin_nodes address=93.51.41.175
-add list=bitcoin_nodes address=93.55.176.7
 add list=bitcoin_nodes address=93.56.5.69
 add list=bitcoin_nodes address=93.56.123.211
 add list=bitcoin_nodes address=93.57.81.162
@@ -5398,13 +5414,13 @@ add list=bitcoin_nodes address=93.144.98.229
 add list=bitcoin_nodes address=93.144.176.225
 add list=bitcoin_nodes address=93.146.79.116
 add list=bitcoin_nodes address=93.151.173.61
-add list=bitcoin_nodes address=93.157.248.186
 add list=bitcoin_nodes address=93.160.66.70
 add list=bitcoin_nodes address=93.165.249.26
 add list=bitcoin_nodes address=93.173.78.144
 add list=bitcoin_nodes address=93.174.188.110
 add list=bitcoin_nodes address=93.176.171.167
 add list=bitcoin_nodes address=93.176.172.123
+add list=bitcoin_nodes address=93.176.173.13
 add list=bitcoin_nodes address=93.177.73.234
 add list=bitcoin_nodes address=93.177.253.56
 add list=bitcoin_nodes address=93.189.25.250
@@ -5426,6 +5442,7 @@ add list=bitcoin_nodes address=93.197.207.250
 add list=bitcoin_nodes address=93.198.152.177
 add list=bitcoin_nodes address=93.199.9.93
 add list=bitcoin_nodes address=93.199.10.129
+add list=bitcoin_nodes address=93.199.14.125
 add list=bitcoin_nodes address=93.201.116.65
 add list=bitcoin_nodes address=93.201.118.106
 add list=bitcoin_nodes address=93.201.127.76
@@ -5586,7 +5603,6 @@ add list=bitcoin_nodes address=95.62.43.162
 add list=bitcoin_nodes address=95.62.49.156
 add list=bitcoin_nodes address=95.62.61.145
 add list=bitcoin_nodes address=95.71.162.112
-add list=bitcoin_nodes address=95.72.183.179
 add list=bitcoin_nodes address=95.79.52.193
 add list=bitcoin_nodes address=95.82.130.223
 add list=bitcoin_nodes address=95.84.162.152
@@ -5622,7 +5638,6 @@ add list=bitcoin_nodes address=95.117.14.131
 add list=bitcoin_nodes address=95.117.19.183
 add list=bitcoin_nodes address=95.117.27.56
 add list=bitcoin_nodes address=95.117.106.123
-add list=bitcoin_nodes address=95.117.127.222
 add list=bitcoin_nodes address=95.117.184.218
 add list=bitcoin_nodes address=95.117.201.240
 add list=bitcoin_nodes address=95.128.200.91
@@ -5664,7 +5679,6 @@ add list=bitcoin_nodes address=95.211.241.180
 add list=bitcoin_nodes address=95.213.143.91
 add list=bitcoin_nodes address=95.213.145.218
 add list=bitcoin_nodes address=95.214.55.53
-add list=bitcoin_nodes address=95.214.161.5
 add list=bitcoin_nodes address=95.214.161.16
 add list=bitcoin_nodes address=95.214.162.44
 add list=bitcoin_nodes address=95.214.162.201
@@ -5741,7 +5755,6 @@ add list=bitcoin_nodes address=95.222.87.130
 add list=bitcoin_nodes address=95.222.125.254
 add list=bitcoin_nodes address=95.229.68.243
 add list=bitcoin_nodes address=95.244.110.38
-add list=bitcoin_nodes address=95.247.135.147
 add list=bitcoin_nodes address=95.250.212.193
 add list=bitcoin_nodes address=96.2.95.149
 add list=bitcoin_nodes address=96.2.114.10
@@ -5799,6 +5812,7 @@ add list=bitcoin_nodes address=96.246.211.250
 add list=bitcoin_nodes address=96.248.96.215
 add list=bitcoin_nodes address=96.248.115.94
 add list=bitcoin_nodes address=96.252.87.223
+add list=bitcoin_nodes address=96.255.66.130
 add list=bitcoin_nodes address=96.255.237.173
 add list=bitcoin_nodes address=97.82.72.48
 add list=bitcoin_nodes address=97.82.163.138
@@ -5826,7 +5840,6 @@ add list=bitcoin_nodes address=97.118.172.159
 add list=bitcoin_nodes address=97.119.120.38
 add list=bitcoin_nodes address=97.119.202.26
 add list=bitcoin_nodes address=97.120.100.58
-add list=bitcoin_nodes address=97.120.124.151
 add list=bitcoin_nodes address=97.120.125.235
 add list=bitcoin_nodes address=97.121.210.135
 add list=bitcoin_nodes address=97.126.88.211
@@ -5902,6 +5915,7 @@ add list=bitcoin_nodes address=98.164.148.20
 add list=bitcoin_nodes address=98.165.59.5
 add list=bitcoin_nodes address=98.165.151.77
 add list=bitcoin_nodes address=98.168.198.50
+add list=bitcoin_nodes address=98.169.0.233
 add list=bitcoin_nodes address=98.169.79.35
 add list=bitcoin_nodes address=98.169.81.233
 add list=bitcoin_nodes address=98.176.134.150
@@ -5925,9 +5939,9 @@ add list=bitcoin_nodes address=98.227.33.174
 add list=bitcoin_nodes address=98.227.252.166
 add list=bitcoin_nodes address=98.228.196.93
 add list=bitcoin_nodes address=98.235.46.154
-add list=bitcoin_nodes address=98.239.80.201
 add list=bitcoin_nodes address=98.242.121.56
 add list=bitcoin_nodes address=98.244.126.209
+add list=bitcoin_nodes address=98.248.216.89
 add list=bitcoin_nodes address=98.249.16.87
 add list=bitcoin_nodes address=98.251.47.34
 add list=bitcoin_nodes address=99.8.34.23
@@ -6058,7 +6072,6 @@ add list=bitcoin_nodes address=101.99.88.33
 add list=bitcoin_nodes address=101.99.89.200
 add list=bitcoin_nodes address=101.99.91.217
 add list=bitcoin_nodes address=101.100.134.94
-add list=bitcoin_nodes address=101.100.139.249
 add list=bitcoin_nodes address=101.108.4.3
 add list=bitcoin_nodes address=101.108.116.146
 add list=bitcoin_nodes address=101.127.47.82
@@ -6191,6 +6204,7 @@ add list=bitcoin_nodes address=104.248.253.196
 add list=bitcoin_nodes address=104.254.219.169
 add list=bitcoin_nodes address=105.106.151.217
 add list=bitcoin_nodes address=105.106.158.70
+add list=bitcoin_nodes address=105.109.118.108
 add list=bitcoin_nodes address=105.110.130.175
 add list=bitcoin_nodes address=105.186.235.36
 add list=bitcoin_nodes address=105.225.199.29
@@ -6246,6 +6260,7 @@ add list=bitcoin_nodes address=108.3.147.53
 add list=bitcoin_nodes address=108.3.156.2
 add list=bitcoin_nodes address=108.5.227.41
 add list=bitcoin_nodes address=108.6.3.143
+add list=bitcoin_nodes address=108.6.181.104
 add list=bitcoin_nodes address=108.7.220.151
 add list=bitcoin_nodes address=108.11.19.133
 add list=bitcoin_nodes address=108.11.182.8
@@ -6259,7 +6274,6 @@ add list=bitcoin_nodes address=108.20.173.160
 add list=bitcoin_nodes address=108.21.60.115
 add list=bitcoin_nodes address=108.21.244.129
 add list=bitcoin_nodes address=108.24.100.83
-add list=bitcoin_nodes address=108.26.29.204
 add list=bitcoin_nodes address=108.26.56.212
 add list=bitcoin_nodes address=108.26.156.134
 add list=bitcoin_nodes address=108.26.161.129
@@ -6374,10 +6388,10 @@ add list=bitcoin_nodes address=109.136.43.81
 add list=bitcoin_nodes address=109.136.206.121
 add list=bitcoin_nodes address=109.146.105.129
 add list=bitcoin_nodes address=109.147.14.63
-add list=bitcoin_nodes address=109.152.17.78
 add list=bitcoin_nodes address=109.152.76.199
 add list=bitcoin_nodes address=109.157.112.124
 add list=bitcoin_nodes address=109.157.178.46
+add list=bitcoin_nodes address=109.158.148.220
 add list=bitcoin_nodes address=109.159.21.241
 add list=bitcoin_nodes address=109.164.63.183
 add list=bitcoin_nodes address=109.164.111.129
@@ -6589,12 +6603,11 @@ add list=bitcoin_nodes address=118.163.74.161
 add list=bitcoin_nodes address=118.172.85.167
 add list=bitcoin_nodes address=118.172.97.11
 add list=bitcoin_nodes address=118.172.100.23
-add list=bitcoin_nodes address=118.172.100.86
 add list=bitcoin_nodes address=118.174.100.238
 add list=bitcoin_nodes address=118.194.235.42
+add list=bitcoin_nodes address=118.208.201.69
 add list=bitcoin_nodes address=118.210.73.174
 add list=bitcoin_nodes address=118.210.157.217
-add list=bitcoin_nodes address=118.210.165.234
 add list=bitcoin_nodes address=118.217.120.40
 add list=bitcoin_nodes address=118.221.194.94
 add list=bitcoin_nodes address=119.17.149.219
@@ -6645,6 +6658,7 @@ add list=bitcoin_nodes address=122.40.25.57
 add list=bitcoin_nodes address=122.43.32.168
 add list=bitcoin_nodes address=122.57.1.244
 add list=bitcoin_nodes address=122.57.71.226
+add list=bitcoin_nodes address=122.57.129.149
 add list=bitcoin_nodes address=122.107.71.67
 add list=bitcoin_nodes address=122.116.52.205
 add list=bitcoin_nodes address=122.116.249.99
@@ -6664,7 +6678,6 @@ add list=bitcoin_nodes address=123.253.91.66
 add list=bitcoin_nodes address=123.253.91.72
 add list=bitcoin_nodes address=123.255.59.217
 add list=bitcoin_nodes address=124.13.64.41
-add list=bitcoin_nodes address=124.50.89.138
 add list=bitcoin_nodes address=124.52.100.157
 add list=bitcoin_nodes address=124.54.138.151
 add list=bitcoin_nodes address=124.98.116.193
@@ -6681,6 +6694,7 @@ add list=bitcoin_nodes address=124.244.140.76
 add list=bitcoin_nodes address=125.24.11.5
 add list=bitcoin_nodes address=125.25.100.117
 add list=bitcoin_nodes address=125.25.142.56
+add list=bitcoin_nodes address=125.26.246.185
 add list=bitcoin_nodes address=125.26.250.252
 add list=bitcoin_nodes address=125.77.173.152
 add list=bitcoin_nodes address=125.116.22.234
@@ -6698,10 +6712,8 @@ add list=bitcoin_nodes address=125.229.140.109
 add list=bitcoin_nodes address=125.237.157.252
 add list=bitcoin_nodes address=125.253.41.203
 add list=bitcoin_nodes address=125.253.84.79
-add list=bitcoin_nodes address=125.254.22.99
 add list=bitcoin_nodes address=125.254.109.62
 add list=bitcoin_nodes address=126.75.107.49
-add list=bitcoin_nodes address=126.75.117.104
 add list=bitcoin_nodes address=126.208.74.234
 add list=bitcoin_nodes address=128.0.98.214
 add list=bitcoin_nodes address=128.2.12.38
@@ -6889,11 +6901,11 @@ add list=bitcoin_nodes address=136.49.165.24
 add list=bitcoin_nodes address=136.50.30.147
 add list=bitcoin_nodes address=136.50.206.128
 add list=bitcoin_nodes address=136.51.20.119
-add list=bitcoin_nodes address=136.52.39.158
 add list=bitcoin_nodes address=136.52.57.62
 add list=bitcoin_nodes address=136.52.74.146
 add list=bitcoin_nodes address=136.52.88.168
 add list=bitcoin_nodes address=136.52.95.215
+add list=bitcoin_nodes address=136.52.160.91
 add list=bitcoin_nodes address=136.55.13.54
 add list=bitcoin_nodes address=136.55.53.110
 add list=bitcoin_nodes address=136.56.27.103
@@ -6981,9 +6993,11 @@ add list=bitcoin_nodes address=139.59.29.141
 add list=bitcoin_nodes address=139.59.158.175
 add list=bitcoin_nodes address=139.60.61.35
 add list=bitcoin_nodes address=139.60.162.40
+add list=bitcoin_nodes address=139.64.61.218
 add list=bitcoin_nodes address=139.68.231.75
 add list=bitcoin_nodes address=139.84.175.199
 add list=bitcoin_nodes address=139.84.193.137
+add list=bitcoin_nodes address=139.94.6.213
 add list=bitcoin_nodes address=139.94.6.214
 add list=bitcoin_nodes address=139.94.113.143
 add list=bitcoin_nodes address=139.94.116.60
@@ -7325,6 +7339,7 @@ add list=bitcoin_nodes address=149.102.150.95
 add list=bitcoin_nodes address=149.102.235.37
 add list=bitcoin_nodes address=149.106.35.164
 add list=bitcoin_nodes address=149.115.192.160
+add list=bitcoin_nodes address=149.143.85.24
 add list=bitcoin_nodes address=149.143.123.39
 add list=bitcoin_nodes address=149.202.10.48
 add list=bitcoin_nodes address=149.202.72.76
@@ -7370,6 +7385,7 @@ add list=bitcoin_nodes address=150.230.20.192
 add list=bitcoin_nodes address=151.30.165.237
 add list=bitcoin_nodes address=151.30.197.251
 add list=bitcoin_nodes address=151.30.222.126
+add list=bitcoin_nodes address=151.59.131.32
 add list=bitcoin_nodes address=151.59.132.166
 add list=bitcoin_nodes address=151.59.132.174
 add list=bitcoin_nodes address=151.59.132.230
@@ -7762,7 +7778,6 @@ add list=bitcoin_nodes address=167.56.29.28
 add list=bitcoin_nodes address=167.56.92.137
 add list=bitcoin_nodes address=167.56.96.243
 add list=bitcoin_nodes address=167.56.97.249
-add list=bitcoin_nodes address=167.56.99.14
 add list=bitcoin_nodes address=167.56.100.24
 add list=bitcoin_nodes address=167.57.144.10
 add list=bitcoin_nodes address=167.57.144.112
@@ -7771,6 +7786,7 @@ add list=bitcoin_nodes address=167.60.39.12
 add list=bitcoin_nodes address=167.60.43.239
 add list=bitcoin_nodes address=167.60.44.147
 add list=bitcoin_nodes address=167.60.47.191
+add list=bitcoin_nodes address=167.60.48.118
 add list=bitcoin_nodes address=167.60.50.153
 add list=bitcoin_nodes address=167.60.89.123
 add list=bitcoin_nodes address=167.60.98.88
@@ -7822,6 +7838,7 @@ add list=bitcoin_nodes address=167.235.241.222
 add list=bitcoin_nodes address=167.237.20.9
 add list=bitcoin_nodes address=167.248.13.115
 add list=bitcoin_nodes address=167.248.108.143
+add list=bitcoin_nodes address=168.93.39.25
 add list=bitcoin_nodes address=168.93.43.161
 add list=bitcoin_nodes address=168.100.32.163
 add list=bitcoin_nodes address=168.100.33.187
@@ -7908,8 +7925,8 @@ add list=bitcoin_nodes address=172.94.111.54
 add list=bitcoin_nodes address=172.94.111.119
 add list=bitcoin_nodes address=172.94.111.164
 add list=bitcoin_nodes address=172.94.111.173
+add list=bitcoin_nodes address=172.94.111.194
 add list=bitcoin_nodes address=172.94.111.227
-add list=bitcoin_nodes address=172.94.111.241
 add list=bitcoin_nodes address=172.94.111.244
 add list=bitcoin_nodes address=172.96.140.79
 add list=bitcoin_nodes address=172.96.141.17
@@ -8106,6 +8123,7 @@ add list=bitcoin_nodes address=175.32.117.206
 add list=bitcoin_nodes address=175.41.175.168
 add list=bitcoin_nodes address=175.41.191.135
 add list=bitcoin_nodes address=175.43.241.56
+add list=bitcoin_nodes address=175.43.241.74
 add list=bitcoin_nodes address=175.43.241.77
 add list=bitcoin_nodes address=175.110.112.112
 add list=bitcoin_nodes address=175.110.114.74
@@ -8150,6 +8168,7 @@ add list=bitcoin_nodes address=176.67.19.80
 add list=bitcoin_nodes address=176.74.136.237
 add list=bitcoin_nodes address=176.74.240.113
 add list=bitcoin_nodes address=176.76.67.83
+add list=bitcoin_nodes address=176.79.7.117
 add list=bitcoin_nodes address=176.84.212.65
 add list=bitcoin_nodes address=176.96.231.180
 add list=bitcoin_nodes address=176.109.212.36
@@ -8210,6 +8229,7 @@ add list=bitcoin_nodes address=177.229.224.74
 add list=bitcoin_nodes address=177.235.48.221
 add list=bitcoin_nodes address=178.6.108.242
 add list=bitcoin_nodes address=178.13.101.12
+add list=bitcoin_nodes address=178.16.2.47
 add list=bitcoin_nodes address=178.16.141.37
 add list=bitcoin_nodes address=178.16.222.146
 add list=bitcoin_nodes address=178.18.169.142
@@ -8218,6 +8238,7 @@ add list=bitcoin_nodes address=178.19.186.62
 add list=bitcoin_nodes address=178.19.196.51
 add list=bitcoin_nodes address=178.20.23.67
 add list=bitcoin_nodes address=178.20.88.77
+add list=bitcoin_nodes address=178.20.88.240
 add list=bitcoin_nodes address=178.24.117.245
 add list=bitcoin_nodes address=178.25.73.226
 add list=bitcoin_nodes address=178.26.46.97
@@ -8265,7 +8286,6 @@ add list=bitcoin_nodes address=178.113.104.158
 add list=bitcoin_nodes address=178.113.161.61
 add list=bitcoin_nodes address=178.113.196.210
 add list=bitcoin_nodes address=178.113.215.117
-add list=bitcoin_nodes address=178.113.227.172
 add list=bitcoin_nodes address=178.117.57.176
 add list=bitcoin_nodes address=178.118.88.156
 add list=bitcoin_nodes address=178.124.162.209
@@ -8283,6 +8303,8 @@ add list=bitcoin_nodes address=178.158.234.138
 add list=bitcoin_nodes address=178.158.235.32
 add list=bitcoin_nodes address=178.159.98.133
 add list=bitcoin_nodes address=178.162.218.121
+add list=bitcoin_nodes address=178.164.135.158
+add list=bitcoin_nodes address=178.164.208.127
 add list=bitcoin_nodes address=178.164.241.33
 add list=bitcoin_nodes address=178.166.3.225
 add list=bitcoin_nodes address=178.166.26.12
@@ -8331,11 +8353,9 @@ add list=bitcoin_nodes address=178.252.123.24
 add list=bitcoin_nodes address=178.254.37.84
 add list=bitcoin_nodes address=178.255.169.120
 add list=bitcoin_nodes address=179.24.152.97
-add list=bitcoin_nodes address=179.24.170.48
 add list=bitcoin_nodes address=179.27.118.130
 add list=bitcoin_nodes address=179.35.17.52
 add list=bitcoin_nodes address=179.35.24.121
-add list=bitcoin_nodes address=179.35.27.199
 add list=bitcoin_nodes address=179.35.28.141
 add list=bitcoin_nodes address=179.35.31.6
 add list=bitcoin_nodes address=179.35.31.134
@@ -8354,7 +8374,6 @@ add list=bitcoin_nodes address=179.118.166.171
 add list=bitcoin_nodes address=179.152.86.9
 add list=bitcoin_nodes address=179.160.187.53
 add list=bitcoin_nodes address=179.164.8.216
-add list=bitcoin_nodes address=179.164.9.133
 add list=bitcoin_nodes address=179.164.16.103
 add list=bitcoin_nodes address=179.173.199.58
 add list=bitcoin_nodes address=179.176.65.183
@@ -8386,7 +8405,6 @@ add list=bitcoin_nodes address=181.188.133.27
 add list=bitcoin_nodes address=181.205.6.149
 add list=bitcoin_nodes address=181.230.200.85
 add list=bitcoin_nodes address=182.19.219.135
-add list=bitcoin_nodes address=182.52.17.113
 add list=bitcoin_nodes address=182.52.17.144
 add list=bitcoin_nodes address=182.52.108.223
 add list=bitcoin_nodes address=182.70.250.119
@@ -8436,7 +8454,6 @@ add list=bitcoin_nodes address=184.97.10.78
 add list=bitcoin_nodes address=184.97.16.105
 add list=bitcoin_nodes address=184.97.18.60
 add list=bitcoin_nodes address=184.97.18.165
-add list=bitcoin_nodes address=184.97.25.184
 add list=bitcoin_nodes address=184.97.34.59
 add list=bitcoin_nodes address=184.97.34.106
 add list=bitcoin_nodes address=184.97.34.167
@@ -8496,6 +8513,7 @@ add list=bitcoin_nodes address=185.35.183.179
 add list=bitcoin_nodes address=185.43.245.154
 add list=bitcoin_nodes address=185.44.207.152/31
 add list=bitcoin_nodes address=185.52.93.45
+add list=bitcoin_nodes address=185.57.4.201
 add list=bitcoin_nodes address=185.59.101.51
 add list=bitcoin_nodes address=185.63.97.216
 add list=bitcoin_nodes address=185.64.125.16
@@ -8528,7 +8546,6 @@ add list=bitcoin_nodes address=185.107.83.55
 add list=bitcoin_nodes address=185.108.209.79
 add list=bitcoin_nodes address=185.113.128.170
 add list=bitcoin_nodes address=185.113.129.154
-add list=bitcoin_nodes address=185.117.90.208
 add list=bitcoin_nodes address=185.119.118.68
 add list=bitcoin_nodes address=185.121.201.197
 add list=bitcoin_nodes address=185.122.55.128
@@ -8548,7 +8565,6 @@ add list=bitcoin_nodes address=185.148.146.24
 add list=bitcoin_nodes address=185.150.119.81
 add list=bitcoin_nodes address=185.151.242.141
 add list=bitcoin_nodes address=185.152.138.74
-add list=bitcoin_nodes address=185.155.18.129
 add list=bitcoin_nodes address=185.156.37.30
 add list=bitcoin_nodes address=185.157.160.189
 add list=bitcoin_nodes address=185.157.161.1
@@ -8607,6 +8623,7 @@ add list=bitcoin_nodes address=185.239.221.23
 add list=bitcoin_nodes address=185.240.147.26
 add list=bitcoin_nodes address=185.241.41.171
 add list=bitcoin_nodes address=185.243.70.112
+add list=bitcoin_nodes address=185.243.70.120
 add list=bitcoin_nodes address=185.243.71.65
 add list=bitcoin_nodes address=185.244.29.252
 add list=bitcoin_nodes address=185.244.156.150
@@ -8621,6 +8638,7 @@ add list=bitcoin_nodes address=185.254.97.213
 add list=bitcoin_nodes address=186.54.3.134
 add list=bitcoin_nodes address=186.54.49.111
 add list=bitcoin_nodes address=186.54.69.231
+add list=bitcoin_nodes address=186.54.107.213
 add list=bitcoin_nodes address=186.54.209.73
 add list=bitcoin_nodes address=186.57.0.48
 add list=bitcoin_nodes address=186.61.144.53
@@ -8671,6 +8689,7 @@ add list=bitcoin_nodes address=188.27.35.171
 add list=bitcoin_nodes address=188.30.142.148
 add list=bitcoin_nodes address=188.31.96.37
 add list=bitcoin_nodes address=188.31.96.190
+add list=bitcoin_nodes address=188.31.106.103
 add list=bitcoin_nodes address=188.31.108.132
 add list=bitcoin_nodes address=188.32.165.83
 add list=bitcoin_nodes address=188.34.193.226
@@ -8722,6 +8741,7 @@ add list=bitcoin_nodes address=188.138.39.205
 add list=bitcoin_nodes address=188.138.39.219
 add list=bitcoin_nodes address=188.138.88.47
 add list=bitcoin_nodes address=188.138.241.32
+add list=bitcoin_nodes address=188.142.56.99
 add list=bitcoin_nodes address=188.142.139.249
 add list=bitcoin_nodes address=188.142.204.129
 add list=bitcoin_nodes address=188.143.109.243
@@ -8748,6 +8768,7 @@ add list=bitcoin_nodes address=188.174.148.87
 add list=bitcoin_nodes address=188.174.149.125
 add list=bitcoin_nodes address=188.174.150.156
 add list=bitcoin_nodes address=188.174.151.194
+add list=bitcoin_nodes address=188.174.212.101
 add list=bitcoin_nodes address=188.182.183.6
 add list=bitcoin_nodes address=188.183.224.94
 add list=bitcoin_nodes address=188.191.228.233
@@ -8773,9 +8794,9 @@ add list=bitcoin_nodes address=188.218.148.189
 add list=bitcoin_nodes address=188.218.157.250
 add list=bitcoin_nodes address=188.226.41.25
 add list=bitcoin_nodes address=188.227.14.170
+add list=bitcoin_nodes address=188.237.167.51
 add list=bitcoin_nodes address=188.239.191.230
 add list=bitcoin_nodes address=188.242.57.144
-add list=bitcoin_nodes address=188.242.109.212
 add list=bitcoin_nodes address=188.242.123.47
 add list=bitcoin_nodes address=188.244.247.91
 add list=bitcoin_nodes address=188.245.65.246
@@ -8783,7 +8804,6 @@ add list=bitcoin_nodes address=188.245.72.206
 add list=bitcoin_nodes address=188.245.92.219
 add list=bitcoin_nodes address=188.246.226.34
 add list=bitcoin_nodes address=188.252.164.54
-add list=bitcoin_nodes address=188.252.166.177
 add list=bitcoin_nodes address=188.252.184.206
 add list=bitcoin_nodes address=188.252.189.161
 add list=bitcoin_nodes address=188.252.190.82
@@ -8802,7 +8822,6 @@ add list=bitcoin_nodes address=189.140.134.47
 add list=bitcoin_nodes address=189.141.187.107
 add list=bitcoin_nodes address=189.143.21.95
 add list=bitcoin_nodes address=189.154.22.171
-add list=bitcoin_nodes address=189.154.93.6
 add list=bitcoin_nodes address=189.154.161.30
 add list=bitcoin_nodes address=189.174.184.20
 add list=bitcoin_nodes address=189.175.9.232
@@ -8826,6 +8845,7 @@ add list=bitcoin_nodes address=190.92.246.81
 add list=bitcoin_nodes address=190.113.116.174
 add list=bitcoin_nodes address=190.123.27.11
 add list=bitcoin_nodes address=190.133.1.125
+add list=bitcoin_nodes address=190.133.22.164
 add list=bitcoin_nodes address=190.133.60.235
 add list=bitcoin_nodes address=190.133.68.178
 add list=bitcoin_nodes address=190.133.71.212
@@ -8837,6 +8857,7 @@ add list=bitcoin_nodes address=190.133.211.243
 add list=bitcoin_nodes address=190.133.214.180
 add list=bitcoin_nodes address=190.133.219.201
 add list=bitcoin_nodes address=190.134.59.25
+add list=bitcoin_nodes address=190.134.127.12
 add list=bitcoin_nodes address=190.134.186.81
 add list=bitcoin_nodes address=190.135.144.104
 add list=bitcoin_nodes address=190.135.145.154
@@ -8977,7 +8998,6 @@ add list=bitcoin_nodes address=194.79.200.0
 add list=bitcoin_nodes address=194.87.112.19
 add list=bitcoin_nodes address=194.96.241.188
 add list=bitcoin_nodes address=194.96.251.143
-add list=bitcoin_nodes address=194.96.255.90
 add list=bitcoin_nodes address=194.99.20.29
 add list=bitcoin_nodes address=194.104.20.45
 add list=bitcoin_nodes address=194.106.127.43
@@ -9075,11 +9095,11 @@ add list=bitcoin_nodes address=195.250.12.194
 add list=bitcoin_nodes address=195.254.234.187
 add list=bitcoin_nodes address=196.42.22.254
 add list=bitcoin_nodes address=196.42.30.37
-add list=bitcoin_nodes address=196.42.34.1
 add list=bitcoin_nodes address=196.210.89.86
 add list=bitcoin_nodes address=196.240.79.165
 add list=bitcoin_nodes address=196.240.79.166
 add list=bitcoin_nodes address=197.83.230.148
+add list=bitcoin_nodes address=197.91.129.21
 add list=bitcoin_nodes address=197.91.147.27
 add list=bitcoin_nodes address=197.94.220.39
 add list=bitcoin_nodes address=197.155.6.43
@@ -9145,7 +9165,6 @@ add list=bitcoin_nodes address=201.131.200.50
 add list=bitcoin_nodes address=201.176.196.159
 add list=bitcoin_nodes address=201.176.198.119
 add list=bitcoin_nodes address=201.179.196.61
-add list=bitcoin_nodes address=201.179.198.21
 add list=bitcoin_nodes address=201.179.198.99
 add list=bitcoin_nodes address=201.179.200.19
 add list=bitcoin_nodes address=201.179.206.41
@@ -9167,7 +9186,6 @@ add list=bitcoin_nodes address=202.171.172.129
 add list=bitcoin_nodes address=202.177.24.140
 add list=bitcoin_nodes address=202.179.128.219
 add list=bitcoin_nodes address=202.179.131.170
-add list=bitcoin_nodes address=202.184.157.150
 add list=bitcoin_nodes address=202.184.158.182
 add list=bitcoin_nodes address=202.186.197.178
 add list=bitcoin_nodes address=202.189.165.10
@@ -9258,6 +9276,7 @@ add list=bitcoin_nodes address=207.66.71.46
 add list=bitcoin_nodes address=207.66.79.241
 add list=bitcoin_nodes address=207.81.98.190
 add list=bitcoin_nodes address=207.134.87.179
+add list=bitcoin_nodes address=207.135.130.143
 add list=bitcoin_nodes address=207.154.193.31
 add list=bitcoin_nodes address=207.154.198.196
 add list=bitcoin_nodes address=207.154.201.62
@@ -9291,6 +9310,7 @@ add list=bitcoin_nodes address=208.59.229.204
 add list=bitcoin_nodes address=208.65.166.25
 add list=bitcoin_nodes address=208.68.4.71
 add list=bitcoin_nodes address=208.68.38.182
+add list=bitcoin_nodes address=208.73.94.91
 add list=bitcoin_nodes address=208.88.203.140
 add list=bitcoin_nodes address=208.100.163.200
 add list=bitcoin_nodes address=208.102.108.221
@@ -9458,12 +9478,12 @@ add list=bitcoin_nodes address=213.149.8.74
 add list=bitcoin_nodes address=213.152.186.212
 add list=bitcoin_nodes address=213.152.187.245
 add list=bitcoin_nodes address=213.152.187.249
+add list=bitcoin_nodes address=213.153.92.141
 add list=bitcoin_nodes address=213.153.94.253
 add list=bitcoin_nodes address=213.165.95.142
 add list=bitcoin_nodes address=213.168.187.27
 add list=bitcoin_nodes address=213.168.190.147
 add list=bitcoin_nodes address=213.169.186.41
-add list=bitcoin_nodes address=213.172.225.96
 add list=bitcoin_nodes address=213.172.236.102
 add list=bitcoin_nodes address=213.178.155.187
 add list=bitcoin_nodes address=213.182.229.113
@@ -9533,6 +9553,7 @@ add list=bitcoin_nodes address=217.20.131.64
 add list=bitcoin_nodes address=217.22.153.184
 add list=bitcoin_nodes address=217.23.4.32
 add list=bitcoin_nodes address=217.25.173.44
+add list=bitcoin_nodes address=217.27.171.61
 add list=bitcoin_nodes address=217.31.57.129
 add list=bitcoin_nodes address=217.31.160.237
 add list=bitcoin_nodes address=217.40.218.161
@@ -9553,7 +9574,6 @@ add list=bitcoin_nodes address=217.80.113.56
 add list=bitcoin_nodes address=217.81.34.228
 add list=bitcoin_nodes address=217.81.112.178
 add list=bitcoin_nodes address=217.82.77.254
-add list=bitcoin_nodes address=217.82.129.241
 add list=bitcoin_nodes address=217.82.133.120
 add list=bitcoin_nodes address=217.82.197.218
 add list=bitcoin_nodes address=217.83.16.140
@@ -9699,7 +9719,6 @@ add list=bitcoin_nodes address=220.244.54.29
 add list=bitcoin_nodes address=220.244.248.138
 add list=bitcoin_nodes address=220.253.31.89
 add list=bitcoin_nodes address=221.138.210.27
-add list=bitcoin_nodes address=221.150.239.145
 add list=bitcoin_nodes address=221.151.107.42
 add list=bitcoin_nodes address=221.152.38.72
 add list=bitcoin_nodes address=221.154.10.141
@@ -9713,7 +9732,6 @@ add list=bitcoin_nodes address=222.186.20.60
 add list=bitcoin_nodes address=222.228.182.8
 add list=bitcoin_nodes address=222.238.150.47
 add list=bitcoin_nodes address=223.165.46.226
-add list=bitcoin_nodes address=223.204.77.60
 add list=bitcoin_nodes address=223.204.103.191
 add list=bitcoin_nodes address=223.204.120.112
 add list=bitcoin_nodes address=223.205.79.14
